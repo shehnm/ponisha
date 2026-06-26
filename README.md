@@ -1,16 +1,22 @@
-# Ponisha — پیشنهادنویسی
+# Ponisha — حافظه پیشنهادنویسی
 
-تنظیمات و نمونه پیشنهادهای پونیشا برای استفاده در Cursor.
+تنظیمات، سبک و نمونه پیشنهادهای پونیشا برای Cursor.
 
-## استفاده
+## شروع
 
-این پوشه را به workspace اضافه کنید. قانون `.cursor/rules/ponisha-proposals.mdc` در هر چت اعمال می‌شود.
+1. این پوشه را به workspace اضافه کنید
+2. Agent قبل از هر پیشنهاد `MEMORY.md` را می‌خواند
 
-## ساختار
+## فایل‌های مهم
 
-- `.cursor/rules/` — قواعد لحن و سبک
-- `config/pricing-guide.md` — بازه قیمت پروژه‌های قبلی
-- `examples/` — نمونه پیشنهادهای تأییدشده
+| فایل | نقش |
+|------|-----|
+| `MEMORY.md` | **حافظه اصلی** — لحن، تأییدیه‌ها، workflow |
+| `AGENTS.md` | دستورالعمل agent |
+| `.cursor/rules/` | قانون alwaysApply در Cursor |
+| `config/pricing-guide.md` | بازه قیمت پروژه‌ها |
+| `config/milestones-guide.md` | مراحل + پرداخت امن |
+| `examples/` | پیشنهادهای تأییدشده |
 
 ## ریپو
 
