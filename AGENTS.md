@@ -3,14 +3,14 @@
 ## قبل از هر کار
 
 1. **`MEMORY.md`**
-2. **`config/profile.md`** — یا https://ponisha.ir/profile/shehneh
+2. **پروفایل:** `config/profile-refresh.md` — sync هر **۷ روز** از https://ponisha.ir/profile/shehneh
 3. **`config/output-format.md`**
 4. **اسکرین رقبا (اگر بود):** `config/competition-guide.md`
 
 ## خروجی
 
-**متن پیشنهاد** + **فرم پونیشا** — همیشه دو بلوک
+**متن پیشنهاد** + **فرم پونیشا**
 
 ## commit
 
-فقط با درخواست صریح کاربر یا تأیید تنظیمات جدید.
+تنظیمات یا sync پروفایل با تغییر معنادار — با درخواست یا پس از refresh.

@@ -7,10 +7,11 @@ alwaysApply: true
 
 ## قبل از نوشتن هر پیشنهاد
 
-**حتماً `MEMORY.md` را بخوان.** منبع اصلی علاقمندی‌ها و تأییدیه‌های کاربر است.
+**حتماً `MEMORY.md` را بخوان.**
+
+قبل از پیشنهاد: پروفایل — `config/profile-refresh.md` (بازه **۷ روز**)
 
 سپس در صورت نیاز:
-- `config/profile.md` — پروفایل shehneh (یا لینک پونیشا)
 - `config/competition-guide.md` — رقبای همان پروژه (از اسکرین)
 - `config/pricing-guide.md` — بازه قیمت
 - `config/milestones-guide.md` — مراحل + قیمت

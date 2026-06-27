@@ -113,14 +113,13 @@
 ## workflow برای agent
 
 1. `MEMORY.md` را بخوان
-2. **`config/profile.md`** — یا https://ponisha.ir/profile/shehneh
+2. **پروفایل:** `config/profile-refresh.md` — اگر >۷ روز از آخرین sync -> https://ponisha.ir/profile/shehneh و آپدیت `config/profile.md`
 3. brief پروژه را بخوان
-4. **اسکرین رقبا:** `config/competition-guide.md` — زمان و مبلغ فرم
-5. در صورت شباهت `examples/` و `config/pricing-guide.md`
+4. **اسکرین رقبا:** `config/competition-guide.md`
+5. `examples/` و `config/pricing-guide.md` در صورت نیاز
 6. **خروجی دو بلوکی** طبق `config/output-format.md`
-7. مرجع سبک: `examples/woocommerce-sections.txt`
 
 ## به‌روزرسانی
 
-- سبک/قیمت تأییدشده -> `MEMORY.md` / `examples/`
-- تغییر پروفایل -> `config/profile.md` (کاربر اطلاع می‌دهد یا لینک چک شود)
+- سبک/قیمت -> `MEMORY.md` / `examples/`
+- پروفایل -> هر **۷ روز** یا با اطلاع کاربر -> `config/profile.md` (`config/profile-refresh.md`)
