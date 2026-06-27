@@ -15,7 +15,9 @@
 | `AGENTS.md` | دستورالعمل agent |
 | `.cursor/rules/` | قانون alwaysApply در Cursor |
 | `config/pricing-guide.md` | بازه قیمت پروژه‌ها |
-| `config/milestones-guide.md` | مراحل + پرداخت امن |
+| `config/output-format.md` | فرمت دو بلوکی تأییدشده |
+| `config/profile.md` | پروفایل [shehneh](https://ponisha.ir/profile/shehneh) |
+| `config/competition-guide.md` | رقابت هر پروژه (از اسکرین) |
 | `examples/` | پیشنهادهای تأییدشده |
 
 ## ریپو
