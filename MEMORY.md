@@ -77,8 +77,9 @@
 ## قیمت‌گذاری (اصول)
 
 - همیشه داخل بازه بودجه کارفرما
-- رقابتی نسبت به پیشنهادهای دیگر (زمان تحویل پونیشا را در نظر بگیر)
-- scope مبهم: قیمت فعلی + «بعد از دیدن جزئیات/لیست صفحات دقیق‌تر می‌کنم»
+- **رقابت:** اسکرین لیست فریلنسرهای همان پروژه را ببین -> `config/competition-guide.md`
+- **پروفایل:** وضعیت فعلی -> `config/profile.md` یا https://ponisha.ir/profile/shehneh
+- scope مبهم: قیمت اولیه + «بعد از جزئیات دقیق‌تر تنظیم می‌کنم»
 - اعداد مرجع: `config/pricing-guide.md`
 
 ## الگوهای فنی که در پیشنهادها تأیید شده
@@ -112,13 +113,14 @@
 ## workflow برای agent
 
 1. `MEMORY.md` را بخوان
-2. brief پروژه را بخوان
-3. در صورت شباهت `examples/` و `config/pricing-guide.md`
-4. **خروجی دو بلوکی** طبق `config/output-format.md`:
-   - **متن پیشنهاد** (بدون عدد)
-   - **فرم پونیشا** (زمان + مبلغ + مراحل)
-5. مرجع سبک تأییدشده: `examples/woocommerce-sections.txt`
+2. **`config/profile.md`** — یا https://ponisha.ir/profile/shehneh
+3. brief پروژه را بخوان
+4. **اسکرین رقبا:** `config/competition-guide.md` — زمان و مبلغ فرم
+5. در صورت شباهت `examples/` و `config/pricing-guide.md`
+6. **خروجی دو بلوکی** طبق `config/output-format.md`
+7. مرجع سبک: `examples/woocommerce-sections.txt`
 
 ## به‌روزرسانی
 
-وقتی من سبک یا قیمت جدیدی تأیید کردم، همین فایل و در صورت نیاز `examples/` را آپدیت کن.
+- سبک/قیمت تأییدشده -> `MEMORY.md` / `examples/`
+- تغییر پروفایل -> `config/profile.md` (کاربر اطلاع می‌دهد یا لینک چک شود)
