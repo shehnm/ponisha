@@ -9,7 +9,9 @@ alwaysApply: true
 
 **حتماً `MEMORY.md` را بخوان.**
 
-قبل از پیشنهاد: پروفایل — `config/profile-refresh.md` (بازه **۷ روز**)
+**اول:** `config/feasibility-check.md` — به کاربر بگو Cursor/AI می‌تواند یا نه؛ ریسک بالا = بدون پیشنهاد
+
+**پروفایل:** `config/profile-refresh.md` (بازه **۷ روز**)
 
 سپس در صورت نیاز:
 - `config/competition-guide.md` — رقبای همان پروژه (از اسکرین)

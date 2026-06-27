@@ -2,15 +2,17 @@
 
 ## قبل از هر کار
 
+0. **`config/feasibility-check.md`** — ارزیابی Cursor/AI برای کاربر؛ اگر ریسک بالا/غیرممکن -> پیشنهاد نده
 1. **`MEMORY.md`**
-2. **پروفایل:** `config/profile-refresh.md` — sync هر **۷ روز** از https://ponisha.ir/profile/shehneh
+2. پروفایل (sync ۷ روز): `config/profile-refresh.md`
 3. **`config/output-format.md`**
-4. **اسکرین رقبا (اگر بود):** `config/competition-guide.md`
+4. رقبا (اسکرین): `config/competition-guide.md`
 
 ## خروجی
 
-**متن پیشنهاد** + **فرم پونیشا**
+- **مرحله ۰:** ارزیابی (فقط به کاربر)
+- **مرحله ۱ (اگر OK):** متن پیشنهاد + فرم پونیشا
 
 ## commit
 
-تنظیمات یا sync پروفایل با تغییر معنادار — با درخواست یا پس از refresh.
+تنظیمات یا sync پروفایل — با درخواست یا تغییر معنادار.
