@@ -20,6 +20,7 @@
 | `config/feasibility-check.md` | **ارزیابی Cursor/AI قبل از پیشنهاد** |
 | `config/profile-refresh.md` | بازه ۷ روزه sync پروفایل |
 | `config/competition-guide.md` | رقابت هر پروژه (از اسکرین) |
+| `config/bids-log.md` | پیشنهادهای ارسال‌شده (تکرار نکن) |
 | `examples/` | پیشنهادهای تأییدشده |
 
 ## ریپو

@@ -129,8 +129,12 @@
 0. **`config/feasibility-check.md`** — ارزیابی برای کاربر: قابل انجام؟ ریسک؟ اگر نه/بالا -> توقف
 1. `MEMORY.md`
 2. پروفایل: `config/profile-refresh.md` (بازه ۷ روز)
-3. brief + اسکرین رقبا (`competition-guide.md`)
-4. **فقط اگر OK:** خروجی دو بلوکی (`output-format.md`)
+3. brief از کاربر **یا** جستجو در سایت پونیشا (قانون «پونیشا»)
+4. **`config/bids-log.md`** — پیشنهادهای قبلی را تکرار نکن
+5. اسکرین رقبا (`competition-guide.md`) — وگرنه داده صفحه پروژه
+6. **فقط اگر OK:** خروجی دو بلوکی (`output-format.md`)
+
+**وقتی گفت «پیشنهاد دادم»:** ردیف جدید در `config/bids-log.md`.
 
 ## به‌روزرسانی
 
