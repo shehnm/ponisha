@@ -4,6 +4,7 @@
 
 **موتور بلوک ۱:** `proposal-engine.md` + `personal-voice.md`
 **یادگیری:** `proposal-learning.md`
+**Human Review:** `human-review-loop.md` — بعد از هر پیش‌نویس؛ قبل از نسخه نهایی
 **موتور بلوک ۲:** `config/pricing-guide.md` + `config/milestones-guide.md`
 
 ---

@@ -19,7 +19,9 @@
 ## خروجی
 
 - **مرحله ۰:** ارزیابی feasibility
-- **مرحله ۱:** بلوک ۱ (بعد از Simulation) + بلوک ۲ (فرم)
+- **مرحله ۱:** بلوک ۱ + بلوک ۲ (**پیش‌نویس**)
+- **مرحله ۲:** Human Review Loop (`human-review-loop.md`) — چک‌لیست ۱–۵
+- **نسخه نهایی:** بعد از Review یا «خوبه» بدون اصلاح
 
 ## تریگرها
 
@@ -29,7 +31,7 @@
 | «پیشنهاد دادم» | `bids-log` + ردیف اولیه `proposal-learning` |
 | «بردیم» | تحلیل پیروزی + Lesson |
 | «باختیم» | تحلیل شکست + Lesson |
-| «پاسخ داد» | آپدیت `proposal-learning` |
+| بازخورد Human Review | Lesson `[Human]` در `proposal-learning`؛ تکرار ≥۳ → پیشنهاد اصلاح Engine |
 
 ## commit
 

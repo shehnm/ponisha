@@ -13,6 +13,7 @@
 feasibility → learning (دسته) → personal-voice → proposal-engine
     → Risk Discovery → Insight → بلوک ۱ → Client Simulation → بلوک ۲
     → [بعد از نتیجه] proposal-learning
+    → [بعد از هر پیش‌نویس] human-review-loop → نسخه نهایی
 ```
 
 ## فایل‌های کلیدی
@@ -23,8 +24,8 @@ feasibility → learning (دسته) → personal-voice → proposal-engine
 | `MEMORY.md` | حافظه اصلی |
 | **`config/proposal-engine.md`** | Risk، Insight، Client Simulation |
 | **`config/personal-voice.md`** | شخصیت نوشتاری |
-| **`config/proposal-learning.md`** | یادگیری از برد/باخت |
-| `config/feasibility-check.md` | فیلتر قبل از bid |
+| **`config/human-review-loop.md`** | بازخورد ساخت‌یافته ۱–۵ قبل از نسخه نهایی |
+| **`config/proposal-learning.md`** | یادگیری از برد/باخت + Lessons انسان |
 | `config/output-format.md` | دو بلوک |
 | `config/pricing-guide.md` | بودجه |
 | `config/milestones-guide.md` | مراحل |

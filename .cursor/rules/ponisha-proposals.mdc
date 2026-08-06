@@ -1,32 +1,28 @@
 ---
-description: Proposal Intelligence Engine — Win Rate + یادگیری
+description: Proposal Intelligence Engine — Win Rate + یادگیری + Human Review
 alwaysApply: true
 ---
 
 # Proposal Intelligence — پونیشا
 
-**هدف:** Win Rate + یادگیری از نتایج واقعی.
+**هدف:** Win Rate + یادگیری از نتایج + **سلیقه کاربر (Human Review)**.
 
 ## ترتیب
 
-1. `feasibility-check.md`
-2. `MEMORY.md`
-3. `proposal-learning.md` + `personal-voice.md` + `proposal-engine.md`
-4. `profile-refresh.md` (۷ روز) + `bids-log.md` + بودجه + رقابت
-5. `output-format.md`
+1. `feasibility-check.md` → `MEMORY.md` → learning + voice + engine
+2. profile + bids-log + بودجه + رقابت + output-format
+3. پیش‌نویس Proposal
+4. **`human-review-loop.md`** — چک‌لیست ۱–۵؛ نسخه نهایی بعد از Review
 
 ## موتور
 
-- **Risk Discovery** — یک ریسک مخصوص پروژه (نه عمومی)
-- **Insight Engine** — واقعی یا هیچ (مصنوعی ممنوع)
-- **Client Simulation** — «حداقل یک پیام می‌فرستادم؟» — گیت اصلی
-- **personal-voice** — یک نفر ثابت
-- **اختراع تجربه/عدد ممنوع**
-- بلوک ۲: بودجه داخل رنج، ۳ مرحله
+- Risk Discovery، Insight، Client Simulation، personal-voice
+- **Human Review:** سؤال کلی ممنوع؛ «خوبه» → بدون Lesson؛ ایراد مشخص → `[Human]` Lesson
+- تکرار همان ایراد در **۳ Proposal** → پیشنهاد اصلاح Engine (بدون تغییر خودکار)
 
 ## تریگر
 
-- «پیشنهاد دادم» → `bids-log` + `proposal-learning`
-- «بردیم»/«باختیم»/«پاسخ داد» → تحلیل در `proposal-learning`
+- «پیشنهاد دادم» → bids-log + learning
+- «بردیم»/«باختیم» → تحلیل outcome
 
-جزئیات: `MEMORY.md`
+جزئیات: `MEMORY.md` + `human-review-loop.md`

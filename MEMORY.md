@@ -14,7 +14,8 @@
 |------|-----|
 | `config/proposal-engine.md` | موتور: Risk، Insight، Client Simulation |
 | `config/personal-voice.md` | شخصیت نوشتاری ثابت |
-| `config/proposal-learning.md` | یادگیری از برد/باخت |
+| `config/proposal-learning.md` | یادگیری از برد/باخت + Human Review |
+| `config/human-review-loop.md` | بازخورد ساخت‌یافته قبل از نسخه نهایی |
 
 ---
 
@@ -32,6 +33,7 @@
 | ۷ | بودجه + `competition-guide.md` + `pricing-guide.md` |
 | ۸ | `output-format.md` + `milestones-guide.md` |
 | ۹ | `examples/winrate-*.txt` |
+| ۱۰ | بعد از پیش‌نویس: `human-review-loop.md` |
 
 ---
 
@@ -146,7 +148,8 @@
 4. `bids-log.md` — تکرار نکن
 5. بودجه + رقابت
 6. Risk Discovery → Insight → بلوک ۱ → Client Simulation → امتیازدهی
-7. خروجی دو بلوکی
+7. خروجی دو بلوکی (**پیش‌نویس**)
+8. **Human Review Loop** — چک‌لیست ۱–۵؛ منتظر بازخورد؛ نسخه نهایی بعد از Review
 
 **تریگرها:**
 
@@ -154,8 +157,9 @@
 |--------|-----|
 | «پیشنهاد دادم» | `bids-log.md` + ردیف اولیه `proposal-learning.md` |
 | «بردیم» / «باختیم» / «پاسخ داد» | تحلیل + Lesson در `proposal-learning.md` |
+| بازخورد بعد از Review | Lesson `[Human]` + شمارنده تکرار؛ «خوبه» تنها → بدون Lesson |
 
 ## به‌روزرسانی
 
-- اصول Intelligence → `proposal-engine.md` / `proposal-learning.md` / `personal-voice.md`
+- اصول Intelligence → `proposal-engine.md` / `proposal-learning.md` / `personal-voice.md` / `human-review-loop.md`
 - پروفایل → هر ۷ روز → `profile.md`

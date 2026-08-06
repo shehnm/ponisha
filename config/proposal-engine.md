@@ -7,7 +7,8 @@
 
 **فایل‌های مکمل:**
 - `personal-voice.md` — شخصیت نوشتاری
-- `proposal-learning.md` — یادگیری از برد/باخت
+- `proposal-learning.md` — یادگیری از برد/باخت + Human Review
+- `human-review-loop.md` — بازخورد ساخت‌یافته قبل از نسخه نهایی
 
 ---
 
@@ -23,7 +24,8 @@
 ۰.۸  نوشتن بلوک ۱
 ۰.۹  Client Simulation          → گیت اصلی (بله/خیر پیام)
 ۰.۹۵ امتیازدهی ۸ معیار         → مکمل؛ اگر <۹۰ بازنویسی
-۱.   output-format.md           → بلوک ۱ + بلوک ۲
+۱.   output-format.md           → بلوک ۱ + بلوک ۲ (پیش‌نویس)
+۱.۱  human-review-loop.md       → چک‌لیست ۱–۵؛ نسخه نهایی بعد از Review
 ```
 
 ---
@@ -173,7 +175,9 @@ Proposal باید مثل **یک نفر ثابت** بنویسد — کوتاه، 
 |--------|-----|
 | «پیشنهاد دادم» | `bids-log` + ردیف اولیه `proposal-learning.md` |
 | برد / باخت / پاسخ | تحلیل پس از نتیجه + Lesson Learned |
-| Proposal بعدی همان دسته | خواندن Lessonهای مرتبط |
+| Human Review (ایراد مشخص) | Lesson `[Human]` + شمارنده تکرار |
+| Human Review («خوبه» تنها) | بدون Lesson |
+| Proposal بعدی | Lessons `[Outcome]` + `[Human]` + تکرارشونده |
 
 ### چک‌لیست تحلیل شکست
 
@@ -202,8 +206,9 @@ Proposal باید مثل **یک نفر ثابت** بنویسد — کوتاه، 
 | ۶ | **هیچ تجربه/عدد/موفقیتی اختراع نشود** |
 | ۷ | یک ریسک + (در صورت وجود) یک Insight واقعی |
 | ۸ | سؤال تخصصی پایانی |
-| ۹ | یادگیری از `proposal-learning.md` |
-| ۱۰ | بلوک ۲ بدون تغییر (بودجه، مراحل) |
+| ۹ | یادگیری از `proposal-learning.md` + Human Review |
+| ۱۰ | Human Review قبل از نسخه نهایی (`human-review-loop.md`) |
+| ۱۱ | بلوک ۲ بدون تغییر (بودجه، مراحل) |
 
 ---
 
