@@ -18,7 +18,11 @@ alwaysApply: true
 
 - Risk Discovery، Insight، Client Simulation، personal-voice
 - **Human Review:** سؤال کلی ممنوع؛ «خوبه» → بدون Lesson؛ ایراد مشخص → `[Human]` Lesson
-- تکرار همان ایراد در **۳ Proposal** → پیشنهاد اصلاح Engine (بدون تغییر خودکار)
+- تکرار همان ایراد در **۳ Proposal** → پیشنهاد اصلاح (طبق `architecture-freeze.md`)
+
+## Architecture Freeze (Stable)
+
+معماری منجمد — `architecture-freeze.md`. تغییر فقط با ۳ شرط یا تأیید صریح کاربر پس از یادآوری.
 
 ## تریگر
 

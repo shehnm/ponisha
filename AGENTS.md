@@ -31,8 +31,16 @@
 | «پیشنهاد دادم» | `bids-log` + ردیف اولیه `proposal-learning` |
 | «بردیم» | تحلیل پیروزی + Lesson |
 | «باختیم» | تحلیل شکست + Lesson |
-| بازخورد Human Review | Lesson `[Human]` در `proposal-learning`؛ تکرار ≥۳ → پیشنهاد اصلاح Engine |
+| «پاسخ داد» | آپدیت `proposal-learning` |
+| بازخورد Human Review | Lesson `[Human]`؛ تکرار ≥۳ → پیشنهاد اصلاح Engine |
+
+## Architecture Freeze
+
+قبل از تغییر معماری فایل‌های منجمد: **`config/architecture-freeze.md`**
+
+- Stable از ۱۴۰۵/۰۵/۱۵
+- نیاز: ۲۰ Proposal + ۱۰ نتیجه + مشکل تکرارشونده — **یا** تأیید صریح کاربر پس از یادآوری
 
 ## commit
 
-قوانین، یادگیری، sync پروفایل، bids-log — با تغییر معنادار.
+داده learning/bids/profile — مجاز. تغییر معماری منجمد — فقط Freeze یا Override.

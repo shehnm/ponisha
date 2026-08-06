@@ -16,6 +16,7 @@
 | `config/personal-voice.md` | شخصیت نوشتاری ثابت |
 | `config/proposal-learning.md` | یادگیری از برد/باخت + Human Review |
 | `config/human-review-loop.md` | بازخورد ساخت‌یافته قبل از نسخه نهایی |
+| `config/architecture-freeze.md` | **Stable** — شرایط تغییر معماری |
 
 ---
 
@@ -37,7 +38,15 @@
 
 ---
 
-## ارزیابی قبل از پیشنهاد (اجباری)
+## Architecture Freeze (Stable)
+
+از ۱۴۰۵/۰۵/۱۵ سیستم **Stable** است. `config/architecture-freeze.md`
+
+**تا رفع Freeze:** فقط Proposal، Human Review، Lesson، به‌روزرسانی داده learning.
+
+**تغییر معماری** فایل‌های منجمد → یادآوری Freeze + سؤال: «آیا با وجود Freeze همچنان می‌خواهید معماری تغییر کند؟»
+
+---
 
 کاربر با **Cursor + AI** پروژه انجام می‌دهد. **قبل از پیشنهاد کارفرما** به خود کاربر بگو:
 
