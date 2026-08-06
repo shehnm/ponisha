@@ -1,31 +1,31 @@
 ---
-description: پیشنهاد پونیشا — همیشه MEMORY را اول بخوان
+description: پیشنهاد پونیشا — Win Rate First
 alwaysApply: true
 ---
 
-# پیشنهاد پونیشا
+# پیشنهاد پونیشا — Win Rate
 
-## قبل از نوشتن هر پیشنهاد
+**هدف:** افزایش نرخ برنده شدن — نه متن زیبا.
 
-**حتماً `MEMORY.md` را بخوان.**
+## ترتیب (بدون تعارض)
 
-**اول:** `config/feasibility-check.md` — به کاربر بگو Cursor/AI می‌تواند یا نه؛ ریسک بالا = بدون پیشنهاد
+1. `config/feasibility-check.md`
+2. `MEMORY.md`
+3. `config/proposal-engine.md` — تحلیل + امتیاز ≥۹۰ در ۸ معیار
+4. `config/profile-refresh.md` (۷ روز)
+5. `config/bids-log.md` + بودجه + رقابت
+6. `config/output-format.md`
 
-**پروفایل:** `config/profile-refresh.md` (بازه **۷ روز**)
+## موتور متن
 
-سپس در صورت نیاز:
-- `config/competition-guide.md` — رقبای همان پروژه (از اسکرین)
-- `config/pricing-guide.md` — بازه قیمت
-- `config/milestones-guide.md` — مراحل + قیمت
-- `examples/` — نمونه‌های تأییدشده
+- `config/proposal-engine.md` — نه template؛ صدای توسعه‌دهنده؛ ریسک واقعی؛ سؤال تخصصی پایانی
+- تجربه فقط از `config/profile.md` — **اختراع ممنوع**
+- **دو بلوک:** متن (بدون قیمت/زمان) + فرم (قیمت داخل بازه بودجه، ۳ مرحله)
+- نمونه: `examples/winrate-*.txt`
 
-## خلاصه سریع (جایگزین MEMORY نیست)
+## تریگر
 
-- **همیشه دو بلوک:** متن پیشنهاد + فرم پونیشا (`config/output-format.md`)
-- **قیمت فرم:** داخل بازه بودجه همان پروژه در پونیشا (نه زیر کف)
-- کوتاه، صمیمی، خودمونی، فنی، اول شخص
-- متن پیشنهاد: بدون عدد زمان/قیمت — فقط ارجاع به فرم
-- فرم پونیشا: زمان + مبلغ کل + ۳ مرحله (جمع = کل)
-- نمونه تأییدشده: `examples/woocommerce-sections.txt`
+- «پونیشا» / «بعدی» → جستجو + پیشنهاد
+- «پیشنهاد دادم» → `bids-log.md`
 
-جزئیات کامل فقط در `MEMORY.md`.
+جزئیات کامل: `MEMORY.md`

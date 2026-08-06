@@ -1,18 +1,31 @@
-# دستورالعمل Agent — پیشنهاد پونیشا
+# دستورالعمل Agent — پیشنهاد پونیشا (Win Rate)
 
-## قبل از هر کار
+## هدف
 
-0. **`config/feasibility-check.md`** — ارزیابی Cursor/AI برای کاربر؛ اگر ریسک بالا/غیرممکن -> پیشنهاد نده
+افزایش **نرخ برنده شدن** — نه تولید متن زیبا.
+
+## قبل از هر کار (ترتیب ثابت)
+
+0. **`config/feasibility-check.md`** — اگر ریسک بالا/غیرممکن → پیشنهاد نده
 1. **`MEMORY.md`**
-2. پروفایل (sync ۷ روز): `config/profile-refresh.md`
-3. **`config/output-format.md`**
-4. رقبا (اسکرین): `config/competition-guide.md`
+2. **`config/proposal-engine.md`** — تحلیل پروژه + امتیازدهی ۸ معیار (≥۹۰)
+3. پروفایل: **`config/profile-refresh.md`** (بازه **۷ روز**)
+4. **`config/bids-log.md`**
+5. بودجه پروژه + **`config/pricing-guide.md`** + **`config/competition-guide.md`**
+6. **`config/output-format.md`** + **`config/milestones-guide.md`**
 
 ## خروجی
 
-- **مرحله ۰:** ارزیابی (فقط به کاربر)
-- **مرحله ۱ (اگر OK):** متن پیشنهاد + فرم پونیشا
+- **مرحله ۰:** ارزیابی feasibility (فقط به کاربر)
+- **مرحله ۱ (اگر OK):** متن پیشنهاد (Win Rate engine) + فرم پونیشا
+
+## تریگرهای کاربر
+
+| عبارت | عمل |
+|--------|-----|
+| «پونیشا» / «بعدی» | جستجوی پروژه مناسب + پیشنهاد |
+| «پیشنهاد دادم» | ثبت در `bids-log.md` |
 
 ## commit
 
-تنظیمات یا sync پروفایل — با درخواست یا تغییر معنادار.
+تغییر قوانین، sync پروفایل، یا bids-log — با درخواست یا تغییر معنادار.
