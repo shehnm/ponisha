@@ -2,7 +2,8 @@
 
 هر پیشنهاد **همیشه** دو بلوک جدا دارد.
 
-**موتور بلوک ۱:** `config/proposal-engine.md` (Win Rate)
+**موتور بلوک ۱:** `proposal-engine.md` + `personal-voice.md`
+**یادگیری:** `proposal-learning.md`
 **موتور بلوک ۲:** `config/pricing-guide.md` + `config/milestones-guide.md`
 
 ---

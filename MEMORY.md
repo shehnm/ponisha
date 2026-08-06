@@ -6,11 +6,15 @@
 
 ## هدف سیستم (تأییدشده — Architect)
 
-**Win Rate First** — افزایش نرخ برنده شدن پروژه.
+**Proposal Intelligence Engine** — افزایش Win Rate + **یادگیری مستمر** از نتایج واقعی.
 
 متن زیبا که انتخاب را بالا نبرد = شکست.
 
-موتور تولید متن: `config/proposal-engine.md`
+| فایل | نقش |
+|------|-----|
+| `config/proposal-engine.md` | موتور: Risk، Insight، Client Simulation |
+| `config/personal-voice.md` | شخصیت نوشتاری ثابت |
+| `config/proposal-learning.md` | یادگیری از برد/باخت |
 
 ---
 
@@ -20,12 +24,14 @@
 |-------|------|
 | ۰ | `config/feasibility-check.md` |
 | ۱ | این فایل (`MEMORY.md`) |
-| ۲ | `config/proposal-engine.md` — تحلیل + امتیازدهی |
-| ۳ | `config/profile-refresh.md` → `config/profile.md` |
-| ۴ | `config/bids-log.md` |
-| ۵ | بودجه پروژه + `config/competition-guide.md` + `config/pricing-guide.md` |
-| ۶ | `config/output-format.md` + `config/milestones-guide.md` |
-| ۷ | `examples/winrate-*.txt` برای الگو |
+| ۲ | `config/proposal-learning.md` — Lessonهای دسته مرتبط |
+| ۳ | `config/personal-voice.md` |
+| ۴ | `config/proposal-engine.md` — Risk + Insight + Simulation |
+| ۵ | `config/profile-refresh.md` → `config/profile.md` |
+| ۶ | `config/bids-log.md` |
+| ۷ | بودجه + `competition-guide.md` + `pricing-guide.md` |
+| ۸ | `output-format.md` + `milestones-guide.md` |
+| ۹ | `examples/winrate-*.txt` |
 
 ---
 
@@ -45,14 +51,9 @@
 
 ---
 
-## لحن (تأییدشده — به‌روز Win Rate)
+## لحن (تأییدشده)
 
-- صدای **توسعه‌دهنده باتجربه** — نه فروشنده، نه بازاریاب، نه ChatGPT
-- کوتاه، صمیمی، خودمونی — مثل پیام مستقیم به کارفرما
-- اول شخص: «می‌زنم»، «کار کردم»، «می‌فرستم»
-- فنی ولی قابل فهم؛ ابزار واقعی از پروفایل
-- **شخصی برای همین پروژه** — نه template
-- اعتماد از درک brief + ریسک واقعی + شفافیت — نه از «کیفیت بالا» و «سال‌ها تجربه»
+طبق `config/personal-voice.md` — کوتاه، شفاف، مستقیم، مشاورمحور، فنی، آرام، بدون فروشندگی.
 
 ## چیزهایی که دوست ندارم (رد شده)
 
@@ -63,7 +64,7 @@
 - **عدد زمان یا مبلغ داخل متن پیشنهاد**
 - جملات کلیشه اعتمادسازی (لیست کامل: `proposal-engine.md`)
 - شروع یکسان همه پیشنهادها با یک قالب ثابت
-- اختراع تجربه‌ای که در `profile.md` نیست
+- اختراع تجربه/پروژه/مشتری/عدد/موفقیت (`proposal-engine.md`)
 
 ## ساختار خروجی (تأییدشده — همیشه دو بلوک)
 
@@ -71,12 +72,12 @@
 
 ### بلوک ۱ — متن پیشنهاد
 
-برای کپی در چت پونیشا. طبق `config/proposal-engine.md`:
+برای کپی در چت پونیشا. طبق `proposal-engine.md` + `personal-voice.md`:
 
-- تحلیل پروژه (داخلی) قبل از نوشتن
+- Risk Discovery: یک ریسک **مخصوص این پروژه**
+- Insight: یک نکته واقعی — یا هیچ (مصنوعی ممنوع)
+- Client Simulation: «آیا کارفرما حداقل یک پیام می‌فرستاد؟»
 - ۴–۸ جمله؛ حداکثر ~۱۲ خط
-- درک مسئله + رویکرد + یک ریسک/راه‌حل + بینش + ارجاع به فرم + **سؤال تخصصی پایانی**
-- امتیازدهی ۸ معیار (حداقل ۹۰) قبل از تحویل
 
 **ممنوع در متن پیشنهاد:** هر عدد زمان یا قیمت.
 
@@ -139,18 +140,22 @@
 ## workflow برای agent
 
 0. `feasibility-check.md` — اگر نه/ریسک بالا → توقف
-1. `MEMORY.md` + `proposal-engine.md`
-2. پروفایل: `profile-refresh.md` — هر **۷ روز** (نه روزانه)
-3. brief کاربر **یا** جستجو در پونیشا («پونیشا» / «بعدی»)
-4. `bids-log.md` — تکرار نکن؛ رد خودکار
-5. بودجه از صفحه پروژه — مبلغ فرم داخل رنج
-6. رقابت: `competition-guide.md`؛ status انتخاب کارفرما → رد
-7. تحلیل پروژه + امتیازدهی (proposal-engine)
-8. خروجی دو بلوکی
+1. `MEMORY.md` + `proposal-learning.md` (دسته مرتبط) + `personal-voice.md` + `proposal-engine.md`
+2. پروفایل: `profile-refresh.md` — هر **۷ روز**
+3. brief یا جستجو («پونیشا» / «بعدی»)
+4. `bids-log.md` — تکرار نکن
+5. بودجه + رقابت
+6. Risk Discovery → Insight → بلوک ۱ → Client Simulation → امتیازدهی
+7. خروجی دو بلوکی
 
-**«پیشنهاد دادم»:** ردیف در `bids-log.md`
+**تریگرها:**
+
+| عبارت | عمل |
+|--------|-----|
+| «پیشنهاد دادم» | `bids-log.md` + ردیف اولیه `proposal-learning.md` |
+| «بردیم» / «باختیم» / «پاسخ داد» | تحلیل + Lesson در `proposal-learning.md` |
 
 ## به‌روزرسانی
 
-- اصول Win Rate → `proposal-engine.md` / `examples/winrate-*.txt`
+- اصول Intelligence → `proposal-engine.md` / `proposal-learning.md` / `personal-voice.md`
 - پروفایل → هر ۷ روز → `profile.md`

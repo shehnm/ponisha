@@ -1,31 +1,36 @@
-# دستورالعمل Agent — پیشنهاد پونیشا (Win Rate)
+# دستورالعمل Agent — Proposal Intelligence Engine
 
 ## هدف
 
-افزایش **نرخ برنده شدن** — نه تولید متن زیبا.
+افزایش **Win Rate** + **یادگیری مستمر** از نتایج واقعی.
 
 ## قبل از هر کار (ترتیب ثابت)
 
-0. **`config/feasibility-check.md`** — اگر ریسک بالا/غیرممکن → پیشنهاد نده
+0. **`config/feasibility-check.md`**
 1. **`MEMORY.md`**
-2. **`config/proposal-engine.md`** — تحلیل پروژه + امتیازدهی ۸ معیار (≥۹۰)
-3. پروفایل: **`config/profile-refresh.md`** (بازه **۷ روز**)
-4. **`config/bids-log.md`**
-5. بودجه پروژه + **`config/pricing-guide.md`** + **`config/competition-guide.md`**
-6. **`config/output-format.md`** + **`config/milestones-guide.md`**
+2. **`config/proposal-learning.md`** — Lessonهای دسته مرتبط
+3. **`config/personal-voice.md`**
+4. **`config/proposal-engine.md`** — Risk + Insight + Client Simulation
+5. **`config/profile-refresh.md`** (۷ روز)
+6. **`config/bids-log.md`**
+7. بودجه + **`pricing-guide.md`** + **`competition-guide.md`**
+8. **`output-format.md`** + **`milestones-guide.md`**
 
 ## خروجی
 
-- **مرحله ۰:** ارزیابی feasibility (فقط به کاربر)
-- **مرحله ۱ (اگر OK):** متن پیشنهاد (Win Rate engine) + فرم پونیشا
+- **مرحله ۰:** ارزیابی feasibility
+- **مرحله ۱:** بلوک ۱ (بعد از Simulation) + بلوک ۲ (فرم)
 
-## تریگرهای کاربر
+## تریگرها
 
 | عبارت | عمل |
 |--------|-----|
-| «پونیشا» / «بعدی» | جستجوی پروژه مناسب + پیشنهاد |
-| «پیشنهاد دادم» | ثبت در `bids-log.md` |
+| «پونیشا» / «بعدی» | جستجو + پیشنهاد |
+| «پیشنهاد دادم» | `bids-log` + ردیف اولیه `proposal-learning` |
+| «بردیم» | تحلیل پیروزی + Lesson |
+| «باختیم» | تحلیل شکست + Lesson |
+| «پاسخ داد» | آپدیت `proposal-learning` |
 
 ## commit
 
-تغییر قوانین، sync پروفایل، یا bids-log — با درخواست یا تغییر معنادار.
+قوانین، یادگیری، sync پروفایل، bids-log — با تغییر معنادار.

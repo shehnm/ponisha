@@ -1,32 +1,37 @@
-# Ponisha — سیستم پیشنهاد (Win Rate)
+# Ponisha — Proposal Intelligence Engine
 
-تنظیمات، موتور پیشنهاد و نمونه‌ها برای Cursor.
-
-**هدف:** افزایش نرخ برنده شدن پروژه — نه تولید متن زیبا.
+سیستم پیشنهاد پونیشا با هدف **Win Rate** + **یادگیری مستمر**.
 
 ## شروع
 
-1. این پوشه را به workspace اضافه کنید
+1. workspace را اضافه کنید
 2. Agent طبق `AGENTS.md` عمل می‌کند
 
-## فایل‌های مهم
+## معماری
+
+```
+feasibility → learning (دسته) → personal-voice → proposal-engine
+    → Risk Discovery → Insight → بلوک ۱ → Client Simulation → بلوک ۲
+    → [بعد از نتیجه] proposal-learning
+```
+
+## فایل‌های کلیدی
 
 | فایل | نقش |
 |------|-----|
-| `AGENTS.md` | workflow agent |
-| `MEMORY.md` | حافظه اصلی — لحن، workflow |
-| **`config/proposal-engine.md`** | **موتور Win Rate** — تحلیل، اصول، امتیازدهی |
-| `config/feasibility-check.md` | ارزیابی Cursor/AI قبل از bid |
-| `config/output-format.md` | فرمت دو بلوکی |
-| `config/pricing-guide.md` | بازه بودجه + قیمت مرجع |
-| `config/milestones-guide.md` | مراحل پرداخت امن |
+| `AGENTS.md` | workflow |
+| `MEMORY.md` | حافظه اصلی |
+| **`config/proposal-engine.md`** | Risk، Insight، Client Simulation |
+| **`config/personal-voice.md`** | شخصیت نوشتاری |
+| **`config/proposal-learning.md`** | یادگیری از برد/باخت |
+| `config/feasibility-check.md` | فیلتر قبل از bid |
+| `config/output-format.md` | دو بلوک |
+| `config/pricing-guide.md` | بودجه |
+| `config/milestones-guide.md` | مراحل |
 | `config/competition-guide.md` | رقابت |
-| `config/bids-log.md` | لاگ پیشنهادها |
-| `config/profile.md` | پروفایل shehneh |
-| `config/profile-refresh.md` | sync هر ۷ روز |
-| `examples/winrate-*.txt` | نمونه‌های Win Rate |
-| `examples/winrate-critiques.md` | نقد کارفرما روی نمونه‌ها |
-| `.cursor/rules/` | قانون alwaysApply |
+| `config/bids-log.md` | لاگ سریع |
+| `config/profile.md` | پروفایل |
+| `examples/winrate-*.txt` | نمونه‌ها |
 
 ## ریپو
 
