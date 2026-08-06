@@ -232,3 +232,4 @@ Proposal باید مثل **یک نفر ثابت** بنویسد — کوتاه، 
 
 - الگوی برنده → `examples/winrate-*.txt` + `proposal-learning.md`
 - اصل صدا → `personal-voice.md`
+- تغییر معماری → `architecture-freeze.md` (Stable)
