@@ -26,7 +26,7 @@ feasibility → learning (دسته) → personal-voice → proposal-engine
 | **`config/personal-voice.md`** | شخصیت نوشتاری |
 | **`config/human-review-loop.md`** | بازخورد ساخت‌یافته ۱–۵ قبل از نسخه نهایی |
 | **`config/proposal-learning.md`** | یادگیری از برد/باخت + Lessons انسان |
-| `config/output-format.md` | دو بلوک |
+| `config/feasibility-check.md` | فیلتر قبل از bid |
 | `config/pricing-guide.md` | بودجه |
 | `config/milestones-guide.md` | مراحل |
 | `config/competition-guide.md` | رقابت |
