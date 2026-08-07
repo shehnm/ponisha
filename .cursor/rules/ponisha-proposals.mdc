@@ -28,7 +28,7 @@ alwaysApply: true
 
 - **«پونیشا» / «بعدی»** → اول `pending-bid-check.md`؛ بعد Proposal؛ **`last-proposal.md`** را بعد از هر خروجی به‌روز کن
 - «پیشنهاد دادم» → bids-log (+ متن) + learning + last-proposal → Submitted
-- «هنوز ارسال نکردم» → بدون تغییر
+- «هنوز ارسال نکردم» → Ready بماند؛ ادامه فقط با تأیید صریح کاربر
 - «بردیم»/«باختیم» → تحلیل outcome
 
 جزئیات: `MEMORY.md` + `human-review-loop.md` + `pending-bid-check.md`
