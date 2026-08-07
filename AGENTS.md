@@ -16,7 +16,7 @@
 7. بودجه + **`pricing-guide.md`** + **`competition-guide.md`**
 8. **`output-format.md`** + **`milestones-guide.md`**
 
-**قبل از «پونیشا» / «بعدی»:** **`config/pending-bid-check.md`** — Ready ≠ ارسال‌شده؛ فقط بپرس ارسال شد یا نه.
+**قبل از «پونیشا» / «بعدی»:** **`config/pending-bid-check.md`** — Ready: اول **شواهد**، بعد سؤال؛ **هرگز حدس نزن**.
 
 ## خروجی
 

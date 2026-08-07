@@ -166,7 +166,7 @@
 
 | عبارت | عمل |
 |--------|-----|
-| «پونیشا» / «بعدی» | **Pending Bid Check** (`pending-bid-check.md`) → سپس جستجو + Proposal |
+| «پونیشا» / «بعدی» | **Pending Bid Check** (اول **شواهد**، بعد سؤال) → سپس جستجو + Proposal |
 | «پیشنهاد دادم» | `bids-log.md` (+ متن) + ردیف اولیه `proposal-learning.md` + `last-proposal` → Submitted |
 | «هنوز ارسال نکردم» | Ready بماند؛ ادامه فقط با **تأیید صریح** (مثلاً «ادامه»، «پروژه بعدی») |
 | «بردیم» / «باختیم» / «پاسخ داد» | تحلیل + Lesson در `proposal-learning.md` |

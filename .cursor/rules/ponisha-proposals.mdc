@@ -26,7 +26,7 @@ alwaysApply: true
 
 ## تریگر
 
-- **«پونیشا» / «بعدی»** → اول `pending-bid-check.md`؛ بعد Proposal؛ **`last-proposal.md`** را بعد از هر خروجی به‌روز کن
+- **«پونیشا» / «بعدی»** → Pending Bid Check: Ready → **شواهد** سپس سؤال؛ `last-proposal.md` بعد از هر Proposal
 - «پیشنهاد دادم» → bids-log (+ متن) + learning + last-proposal → Submitted
 - «هنوز ارسال نکردم» → Ready بماند؛ ادامه فقط با تأیید صریح کاربر
 - «بردیم»/«باختیم» → تحلیل outcome
