@@ -16,6 +16,8 @@
 7. بودجه + **`pricing-guide.md`** + **`competition-guide.md`**
 8. **`output-format.md`** + **`milestones-guide.md`**
 
+**قبل از «پونیشا» / «بعدی»:** **`config/pending-bid-check.md`** — اگر last-proposal در bids-log نیست → توقف و سؤال از کاربر (پروژه جدید نساز).
+
 ## خروجی
 
 - **مرحله ۰:** ارزیابی feasibility
@@ -27,8 +29,9 @@
 
 | عبارت | عمل |
 |--------|-----|
-| «پونیشا» / «بعدی» | جستجو + پیشنهاد |
-| «پیشنهاد دادم» | `bids-log` + ردیف اولیه `proposal-learning` |
+| «پونیشا» / «بعدی» | **Pending Bid Check** → سپس جستجو + پیشنهاد؛ **`config/last-proposal.md`** را بعد از هر Proposal به‌روز کن |
+| «پیشنهاد دادم» | `bids-log` (+ متن Proposal) + ردیف اولیه `proposal-learning` + `last-proposal` → Submitted |
+| «هنوز ارسال نکردم» | بدون تغییر bids-log؛ پروژه جدید شروع نشود |
 | «بردیم» | تحلیل پیروزی + Lesson |
 | «باختیم» | تحلیل شکست + Lesson |
 | «پاسخ داد» | آپدیت `proposal-learning` |

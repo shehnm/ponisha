@@ -31,6 +31,8 @@
 | ۴ | `config/proposal-engine.md` — Risk + Insight + Simulation |
 | ۵ | `config/profile-refresh.md` → `config/profile.md` |
 | ۶ | `config/bids-log.md` |
+| ۶.۵ | **`config/pending-bid-check.md`** — قبل از «پونیشا»/«بعدی» |
+| ۶.۶ | **`config/last-proposal.md`** — بعد از هر Proposal به‌روز |
 | ۷ | بودجه + `competition-guide.md` + `pricing-guide.md` |
 | ۸ | `output-format.md` + `milestones-guide.md` |
 | ۹ | `examples/winrate-*.txt` |
@@ -153,18 +155,20 @@
 0. `feasibility-check.md` — اگر نه/ریسک بالا → توقف
 1. `MEMORY.md` + `proposal-learning.md` (دسته مرتبط) + `personal-voice.md` + `proposal-engine.md`
 2. پروفایل: `profile-refresh.md` — هر **۷ روز**
-3. brief یا جستجو («پونیشا» / «بعدی»)
+3. brief یا جستجو («پونیشا» / «بعدی») — **بعد از** Pending Bid Check
 4. `bids-log.md` — تکرار نکن
 5. بودجه + رقابت
 6. Risk Discovery → Insight → بلوک ۱ → Client Simulation → امتیازدهی
-7. خروجی دو بلوکی (**پیش‌نویس**)
+7. خروجی دو بلوکی (**پیش‌نویس**) → **`last-proposal.md`** (Draft/Ready)
 8. **Human Review Loop** — چک‌لیست ۱–۵؛ منتظر بازخورد؛ نسخه نهایی بعد از Review
 
 **تریگرها:**
 
 | عبارت | عمل |
 |--------|-----|
-| «پیشنهاد دادم» | `bids-log.md` + ردیف اولیه `proposal-learning.md` |
+| «پونیشا» / «بعدی» | **Pending Bid Check** (`pending-bid-check.md`) → سپس جستجو + Proposal |
+| «پیشنهاد دادم» | `bids-log.md` (+ متن) + ردیف اولیه `proposal-learning.md` + `last-proposal` → Submitted |
+| «هنوز ارسال نکردم» | بدون تغییر؛ پروژه جدید شروع نشود |
 | «بردیم» / «باختیم» / «پاسخ داد» | تحلیل + Lesson در `proposal-learning.md` |
 | بازخورد بعد از Review | Lesson `[Human]` + شمارنده تکرار؛ «خوبه» تنها → بدون Lesson |
 

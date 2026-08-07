@@ -4,7 +4,18 @@
 
 **محدوده:** مدیریت وضعیت + ثبت در `proposal-learning.md` / `bids-log.md` — **نه** Proposal Engine، **نه** Negotiation Engine.
 
-**ارتباط:** `proposal-learning.md` — تحلیل Lost؛ `bids-log.md` — وضعیت سریع per پروژه.
+**ارتباط:** `proposal-learning.md` — تحلیل Lost؛ `bids-log.md` — وضعیت سریع per پروژه؛ `last-proposal.md` — قبل از ثبت.
+
+---
+
+## وضعیت‌های pre-submit (فقط `last-proposal.md`)
+
+| وضعیت | معنی | در bids-log؟ |
+|--------|------|--------------|
+| **Draft** | پیش‌نویس تولید شده | خیر |
+| **Ready** | آماده ارسال در پونیشا | خیر |
+
+**Pending Bid Check:** قبل از «پونیشا»/«بعدی» — اگر last-proposal در bids-log نیست → از کاربر بپرس. جزئیات: `pending-bid-check.md`.
 
 ---
 
