@@ -17,7 +17,8 @@
 | `config/pricing-guide.md` | بازه قیمت پروژه‌ها |
 | `config/output-format.md` | فرمت دو بلوکی تأییدشده |
 | `config/profile.md` | داده پروفایل shehneh |
-| `config/feasibility-check.md` | **ارزیابی Cursor/AI قبل از پیشنهاد** |
+| `config/feasibility-check.md` | **ارزیابی + Project Selection** (Cursor/AI، فعالیت کارفرما) |
+| `config/project-status.md` | وضعیت پروژه‌ها + گزارش Skip |
 | `config/profile-refresh.md` | بازه ۷ روزه sync پروفایل |
 | `config/competition-guide.md` | رقابت هر پروژه (از اسکرین) |
 | `examples/` | پیشنهادهای تأییدشده |

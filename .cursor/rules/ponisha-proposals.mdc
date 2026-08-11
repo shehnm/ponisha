@@ -9,7 +9,7 @@ alwaysApply: true
 
 **حتماً `MEMORY.md` را بخوان.**
 
-**اول:** `config/feasibility-check.md` — به کاربر بگو Cursor/AI می‌تواند یا نه؛ ریسک بالا = بدون پیشنهاد
+**اول:** `config/feasibility-check.md` — ارزیابی (Cursor/AI + پروفایل + رقابت + **فعالیت کارفرما**)؛ ریسک بالا = بدون پیشنهاد
 
 **پروفایل:** `config/profile-refresh.md` (بازه **۷ روز**)
 
