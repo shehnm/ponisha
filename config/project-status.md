@@ -4,7 +4,20 @@
 
 **محدوده:** Project Selection + وضعیت + گزارش دوره‌ای — **نه** Proposal Engine، **نه** Lesson متن پیشنهاد.
 
-**ارتباط:** `feasibility-check.md` — ارزیابی اولیه + سیگنال فعالیت کارفرما؛ `bids-log.md` — ثبت سریع per پروژه.
+**ارتباط:** `feasibility-check.md` — ارزیابی اولیه + Fresh Project Priority + فعالیت کارفرما؛ `bids-log.md` — ثبت سریع per پروژه.
+
+---
+
+## داده Fresh bids (Learning — نه Lesson)
+
+**هدف:** بررسی بعدی — آیا bid زودهنگام Response Rate / Win Rate را بالا برد؟
+
+| ID | تاریخ bid | Freshness هنگام bid | Proposal هنگام bid | مهلت باقی | نتیجه (Won/Lost/…) |
+|----|-----------|---------------------|--------------------|-----------|---------------------|
+| 750647 | ۱۴۰۵/۰۵/۲۰ | تازه (~۱ روز) | ~۱۲ | — | Submitted |
+| 750905 | ۱۴۰۵/۰۵/۲۰ | تازه (<۱ روز) | ~۱۲ | — | Submitted |
+
+> فقط **داده** — Lesson یا Best Practice از این جدول **نساز** مگر کاربر بخواهد و الگو تکرار شود.
 
 ---
 

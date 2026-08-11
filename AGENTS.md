@@ -2,7 +2,7 @@
 
 ## قبل از هر کار
 
-0. **`config/feasibility-check.md`** — ارزیابی Cursor/AI + **سیگنال فعالیت کارفرما**؛ اگر ریسک بالا/غیرممکن -> پیشنهاد نده
+0. **`config/feasibility-check.md`** — ارزیابی + **Fresh Project Priority** + فعالیت کارفرما؛ اگر ریسک بالا/غیرممکن -> پیشنهاد نده
 1. **`MEMORY.md`**
 2. پروفایل (sync ۷ روز): `config/profile-refresh.md`
 3. **`config/output-format.md`**
