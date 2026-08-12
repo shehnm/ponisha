@@ -133,3 +133,9 @@ Campaign فعلی: ۲۳ bid | ۱ Lost (#749132) | ۰ Won (هنوز) | ۲۲ Submi
 ## به‌روزرسانی
 
 وقتی Won جدید تأیید شد → ردیف این جدول + به‌روز `business/income/freelancing/ponisha/status-report-*.md`
+
+### Won Pattern (تحلیل عمیق)
+
+| ID | Pattern |
+|----|---------|
+| 734216 | [`734216-payam-yar-debug.md`](../business/income/freelancing/ponisha/won-patterns/734216-payam-yar-debug.md) — Tag: `debug-scope-expansion` |
