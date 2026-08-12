@@ -9,6 +9,7 @@
 |------|---------------------|-------------------------------|
 | لاگ پیشنهادها | `config/bids-log.md` | ۱۴۰۵/۰۵/۲۱ |
 | Won تاریخی | `config/won-log.md` | ۱۴۰۵/۰۵/۲۱ |
+| Won Pattern (تحلیل) | `business/income/freelancing/ponisha/won-patterns/` | ۱۴۰۵/۰۵/۲۱ |
 | پروفایل | `config/profile.md` | ۱۴۰۵/۰۵/۲۰ |
 | وضعیت پروژه / Fresh bids | `config/project-status.md` | ۱۴۰۵/۰۵/۲۱ |
 | انتخاب پروژه / Feasibility | `config/feasibility-check.md` | ثابت (policy) |
