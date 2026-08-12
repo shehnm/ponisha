@@ -5,6 +5,10 @@ alwaysApply: true
 
 # پیشنهاد پونیشا
 
+## Session Startup (اجباری)
+
+**قبل از «پونیشا»، «بعدی»، Proposal، مذاکره، پروژه جدید:** `config/session-startup-check.md` — Load فایل‌های قانون؛ اولین پاسخ Session: «قوانین پروژه Ponisha بررسی شد. نسخه فعلی Workflow فعال است.»
+
 ## قبل از نوشتن هر پیشنهاد
 
 **حتماً `MEMORY.md` را بخوان.**
