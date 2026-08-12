@@ -11,6 +11,8 @@
 | Won تاریخی | `config/won-log.md` | ۱۴۰۵/۰۵/۲۱ |
 | Won Pattern (تحلیل) | `business/income/freelancing/ponisha/won-patterns/` | ۱۴۰۵/۰۵/۲۱ |
 | گزارش روزانه | `daily-management-report-1405-05-21.md` | ۱۴۰۵/۰۵/۲۱ |
+| Living overview | `management-overview.md` | ۱۴۰۵/۰۵/۲۱ |
+| Life OS مرکزی | `README-LIFE-OS.md`، `state/current-state.md` | ۱۴۰۵/۰۵/۲۱ |
 | پروفایل | `config/profile.md` | ۱۴۰۵/۰۵/۲۰ |
 | وضعیت پروژه / Fresh bids | `config/project-status.md` | ۱۴۰۵/۰۵/۲۱ |
 | انتخاب پروژه / Feasibility | `config/feasibility-check.md` | ثابت (policy) |

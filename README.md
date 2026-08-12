@@ -2,6 +2,9 @@
 
 تنظیمات، سبک و نمونه پیشنهادهای **پونیشا** برای Cursor.
 
+**Life OS:** [README-LIFE-OS.md](./README-LIFE-OS.md) — مرکز فرماندهی  
+**وضعیت زنده:** [state/current-state.md](./state/current-state.md)  
+
 **نام‌گذاری:** در متن فارسی فقط «پونیشا» — جزئیات: `config/output-format.md`
 
 ## شروع

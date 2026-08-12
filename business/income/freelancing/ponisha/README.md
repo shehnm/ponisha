@@ -8,8 +8,8 @@
 
 | فایل | نقش |
 |------|-----|
-| `daily-management-report-1405-05-21.md` | گزارش پایان روز — مدیریت و تصمیم‌گیری |
-| `status-report-1405-05-21.md` | گزارش جامع وضعیت — مرجع تصمیم‌گیری (v1.1) |
+| `management-overview.md` | وضعیت زنده — **شروع از اینجا برای پونیشا** |
+| `daily-management-report-*.md` | Snapshot تاریخچه روز |
 | `data-sources.md` | منابع داده و محدودیت‌های ثبت |
 | `won-patterns/` | تحلیل عمیق Won — الگو برای پروژه‌های مشابه |
 | `config/won-log.md` (ریپو ponisha) | Won تاریخی + Win Rate واقعی |
@@ -19,5 +19,5 @@
 - گزارش وضعیت: با درخواست «گزارش پونیشا» یا پس از هر **۱۰ bid** / **هفته**
 - داده زنده bid: `config/bids-log.md` در ریپوی ponisha
 - Won تاریخی: `config/won-log.md` — Win Rate واقعی
-- Won Pattern (تحلیل): `won-patterns/` — مثال: [#734216](./won-patterns/734216-payam-yar-debug.md)
-- پروفایل: `config/profile.md` — sync هر **۷ روز** (`config/profile-refresh.md`)
+- Living overview: `management-overview.md`
+- Life OS مرکزی: `../../README-LIFE-OS.md` → `state/current-state.md`
