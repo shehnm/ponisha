@@ -26,7 +26,7 @@
 | نوع | حوزه پونیشا (تنها اولویت عملیاتی ثبت‌شده) |
 |-----|---------------------------------------------|
 | **DECISION** | توقف bid تا رویداد/داده جدید |
-| **NEXT ACTION** | منتظر Outcome ۲۲ Submitted یا پیام کارفرما |
+| **NEXT ACTION** | منتظر Outcome ۲۱ Submitted · اسکن Lost |
 
 ---
 
@@ -40,7 +40,7 @@
 
 | پروژه | وضعیت | منبع جزئیات |
 |--------|--------|--------------|
-| پونیشا — campaign Submitted (۲۲ bid) | **PENDING** Outcome | `business/income/freelancing/ponisha/management-overview.md` |
+| پونیشا — campaign Submitted (۲۱ bid) | **PENDING** Outcome | `business/income/freelancing/ponisha/management-overview.md` |
 | پروژه‌های «در حال انجام» پونیشا | **FACT:** ۳ (پروفایل) — **ID/عنوان نامشخص** | `config/profile.md` |
 | Odoo / Book / سایر | **نیاز به اطلاعات نویسنده** | — |
 
@@ -58,7 +58,8 @@
 |-----|------|--------|
 | **FACT** | Won تاریخی ثبت‌شده (پونیشا) | **۶۳,۲۰۰,۰۰۰** تومان — ۴ پروژه |
 | **FACT** | Won campaign جاری | **۰** |
-| **PENDING** | Pipeline Submitted (بالقوه) | **۱۸۴,۷۵۰,۰۰۰** تومان — ۲۲ bid |
+| **PENDING** | Pipeline Submitted (بالقوه) | **~۱۸۲,۹۵۰,۰۰۰** تومان — ۲۱ bid |
+| **FACT** | Lost campaign | **۲** (#749132، #751007) |
 | **PENDING** | نقدینگی، هزینه‌ها، تعهدات مالی | **نیاز به اطلاعات نویسنده** |
 
 → جزئیات: `finance/README.md`
