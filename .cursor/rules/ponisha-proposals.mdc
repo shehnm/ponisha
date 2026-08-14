@@ -1,46 +1,44 @@
 ---
-description: وقتی گفت پونیشا — خودت پروژه پیدا کن؛ متن آگهی نخواه
+description: پونیشا — خودت پروژه پیدا کن، لینک اجباری، فرمت کپی 📋
 alwaysApply: true
 ---
 
-# پیشنهاد پونیشا
+# Proposal Intelligence — پونیشا
 
 ## تریگر «پونیشا» / «بعدی» (بدون متن آگهی)
 
-**کاربر فقط «پونیشا» یا «بعدی» گفت → `config/ponisha-trigger.md` را بخوان و اجرا کن.**
+**کاربر فقط «پونیشا» یا «بعدی» گفت → `config/ponisha-trigger.md`**
 
-- **هرگز** نگو: «متن آگهی پروژه را بفرست» / «بودجه و اسکرین را بفرست»
-- **خودت** پروژه باز را از ponisha.ir پیدا کن
-- **قبل** پیشنهاد: `config/bids-log.md` (Skip + رد شده) + HTML «انتخاب کرده»
+- **هرگز** متن آگهی نخواه — خودت از ponisha.ir پیدا کن
+- **مرحله ۰:** حتماً `#ID` + عنوان + **لینک** `https://ponisha.ir/project/{ID}`
+- **قبل** پیشنهاد: `bids-log` (Skip + رد شده) + HTML «انتخاب کرده»
 - **نه** git merge، **نه** web-fetch بی‌برنامه
 
-## Session Startup (اجباری)
+## Session Startup
 
-**قبل از «پونیشا»، «بعدی»، Proposal، مذاکره، پروژه جدید:** `config/session-startup-check.md` — Load فایل‌های قانون؛ اولین پاسخ Session: «قوانین پروژه پونیشا بررسی شد. نسخه فعلی Workflow فعال است.»
+**قبل از «پونیشا»، «بعدی»، Proposal:** `config/session-startup-check.md`  
+اولین پاسخ: «قوانین پروژه پونیشا بررسی شد. نسخه فعلی Workflow فعال است.»
 
-## قبل از نوشتن هر پیشنهاد
+## ترتیب
 
-**حتماً `MEMORY.md` را بخوان.**
+1. `pending-bid-check.md` → `feasibility-check.md` → `MEMORY.md`
+2. learning + voice + engine + bids-log + profile
+3. پیش‌نویس (📋 code blocks — `output-format.md`) → `last-proposal.md`
+4. `human-review-loop.md`
 
-**اول:** `config/feasibility-check.md` — ارزیابی (Fit + **Freshness** + رقابت + فعالیت کارفرما)؛ «پونیشا»/«بعدی» = چند کاندید، نه اولین hit
+## خروجی
 
-**پروفایل:** `config/profile-refresh.md` (بازه **۷ روز**)
+- **مرحله ۰:** ارزیابی + **لینک پروژه** (اجباری)
+- **مرحله ۱:** 📋 متن پیشنهاد + 📋 فیلدهای فرم (هر فیلد code block جدا)
+- **مرحله ۲:** Human Review
 
-سپس در صورت نیاز:
-- `config/competition-guide.md` — رقبای همان پروژه (از اسکرین)
-- `config/pricing-guide.md` — بازه قیمت
-- `config/milestones-guide.md` — مراحل + قیمت
-- `examples/` — نمونه‌های تأییدشده
+## تریگر
 
-## خلاصه سریع (جایگزین MEMORY نیست)
+| عبارت | عمل |
+|--------|-----|
+| «پونیشا» / «بعدی» | Pending Bid Check → trigger → جستجو |
+| «پیشنهاد دادم» | bids-log + learning + last-proposal |
+| «خوبه» | Ready |
 
-- **همیشه دو بلوک:** متن پیشنهاد + فرم پونیشا (`config/output-format.md`)
-- **Copy-Friendly:** plain text؛ فرم خط‌به‌خط — بدون ```، جدول، FA+EN در یک خط
-- **عنوان مراحل:** فقط فارسی کوتاه — بدون slash و انگلیسی قاطی
-- **چک نهایی:** Copy → Paste در پونیشا بدون اصلاح دستی
-- **قیمت فرم:** داخل بازه بودجه همان پروژه (نه زیر کف)
-- کوتاه، صمیمی، خودمونی، فنی، اول شخص
-- متن پیشنهاد: بدون عدد زمان/قیمت
-- نمونه: `examples/woocommerce-sections.txt`
-
-جزئیات کامل: `MEMORY.md` · تریگر: `config/ponisha-trigger.md`
+Architecture Freeze: `architecture-freeze.md`  
+جزئیات: `MEMORY.md` · `ponisha-trigger.md` · `output-format.md`

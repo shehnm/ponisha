@@ -63,8 +63,8 @@
 هر خروجی برای Paste در پونیشا → `config/output-format.md`
 
 - یک کلیک Copy، بدون اصلاح دستی
-- فرم خط‌به‌خط؛ عنوان مراحل فقط فارسی کوتاه
-- بدون جدول markdown، code fence، FA+EN نامرتب در یک خط
+- **مرحله ۰:** ID + عنوان + **لینک** `https://ponisha.ir/project/{ID}` — اجباری
+- بلوk ۱ و ۲: فرمت 📋 — هر فیلد code block جدا
 
 ### Project Selection
 

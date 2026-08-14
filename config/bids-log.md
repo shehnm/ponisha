@@ -1,6 +1,8 @@
 # لاگ پیشنهادهای ارسال‌شده — shehneh
 
 > **Life OS:** `business/income/freelancing/ponisha/management-overview.md` · Won تاریخی → `config/won-log.md`
+> **یادگیری:** بعد از «پیشنهاد دادم» → `config/proposal-learning.md`
+> **Pending:** `config/pending-bid-check.md` + `config/last-proposal.md` (شامل **لینک**)
 
 | تاریخ | ID | عنوان | مبلغ | زمان | وضعیت |
 |-------|-----|--------|------|------|--------|
@@ -267,6 +269,7 @@
 | تاریخ | ID | عنوان | لینک | دلیل Skip | عدم فعالیت کارفرما |
 |-------|-----|--------|------|-----------|---------------------|
 | ۱۴۰۵/۰۵/۱۸ | 747917 | ورود/ثبت‌نام OTP مثل دیوار — tabloshar.ir | https://ponisha.ir/project/747917 | کارفرما ~۱۰ روز بدون پاسخ؛ ~۴ روز مهلت bid | **بله** |
+| ۱۴۰۵/۰۵/۱۸ | 749360 | بازطراحی Elementor + UI/UX + SEO | https://ponisha.ir/project/749360 | عدم تطابق مزیت shehneh با معیار کارفرما (نمونه Elementor) | خیر |
 
 ---
 

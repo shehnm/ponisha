@@ -1,4 +1,4 @@
-# دستورالعمل Agent — پیشنهاد پونیشا
+# دستورالعمل Agent — Proposal Intelligence Engine
 
 ## ⚠️ تریگر «پونیشا» / «بعدی» (اولین کار)
 
@@ -11,37 +11,65 @@
 
 ## Session Startup
 
-**قبل از کار مرتبط با پونیشا / Proposal / مذاکره / پروژه جدید:** `config/session-startup-check.md` — Load قوانین از فایل ریپو؛ اولین پاسخ Session یک خط تأیید.
+**قبل از کار مرتبط با پونیشا / Proposal / مذاکره / پروژه جدید:** `config/session-startup-check.md` — Load قوانین از فایل ریپو؛ اولین پاسخ Session:
 
-## قبل از هر کار
+> قوانین پروژه پونیشا بررسی شد. نسخه فعلی Workflow فعال است.
 
-0. **`config/session-startup-check.md`** — Session تازه یا تریگر workflow پونیشا
-1. **`config/ponisha-trigger.md`** — اگر تریگر «پونیشا» / «بعدی»
-2. **`config/feasibility-check.md`** — ارزیابی + Fresh Project Priority + فعالیت کارفرما؛ اگر ریسک بالا/غیرممکن -> پیشنهاد نده
-3. **`MEMORY.md`**
-4. **`config/bids-log.md`** — Skip + رد شده + تکرار ممنوع
-5. پروفایل (sync ۷ روز): `config/profile-refresh.md`
-6. **`config/output-format.md`**
-7. رقبا (اسکرین): `config/competition-guide.md`
+---
+
+## قبل از هر کار (ترتیب ثابت)
+
+0. **`config/session-startup-check.md`**
+1. **`config/pending-bid-check.md`** — قبل از «پونیشا» / «بعدی»
+2. **`config/ponisha-trigger.md`** — اگر تریگر بدون متن آگهی
+3. **`config/feasibility-check.md`**
+4. **`MEMORY.md`**
+5. **`config/proposal-learning.md`** + **`personal-voice.md`** + **`proposal-engine.md`**
+6. **`config/bids-log.md`** — Skip + رد شده + تکرار ممنوع
+7. پروفایل (sync ۷ روز): **`config/profile-refresh.md`**
+8. **`config/output-format.md`** + pricing + competition + milestones
+9. بعد از پیش‌نویس: **`human-review-loop.md`**
+
+---
 
 ## خروجی
 
-- **مرحله ۰:** ارزیابی (فقط به کاربر)
-- **مرحله ۱ (اگر OK):** متن پیشنهاد + فرم پونیشا — **Copy-Friendly** (`output-format.md`)
-- قبل از تحویل: Copy-Friendly + نام **«پونیشا»** (`output-format.md` — Naming Convention)
-- «آیا با یک کلیک Copy و بدون اصلاح Paste می‌شود؟» — اگر نه، بازنویسی
+- **مرحله ۰:** ارزیابی — **حتماً** `#ID` + عنوان + **لینک** `https://ponisha.ir/project/{ID}` (`output-format.md`)
+- **مرحله ۱:** بلوک ۱ + ۲ (📋 code blocks) — پیش‌نویس + به‌روز **`last-proposal.md`**
+- **مرحله ۲:** Human Review Loop — چک‌لیست ۱–۵
+
+---
+
+## تریگرها
+
+| عبارت | عمل |
+|--------|-----|
+| «پونیشا» / «بعدی» | Pending Bid Check → trigger → جستجو + پیشنهاد |
+| «پیشنهاد دادم» | `bids-log` (+ متن) + `proposal-learning` + `last-proposal` → Submitted |
+| «هنوز ارسال نکردم» | Ready بماند؛ پروژه جدید فقط با **تأیید صریح** |
+| «خوبه» | `last-proposal` → Ready |
+| «بردیم» / «باختیم» / «پاسخ داد» | تحلیل + Lesson |
+
+---
 
 ## هرگز
 
-- از کاربر متن آگهی نخواه (مگر ID بدون fetch یا همه کاندیدها رد شده)
+- از کاربر متن آگهی نخواه (مگر استثنا در `ponisha-trigger.md`)
+- **مرحله ۰ بدون لینک پروژه**
 - git merge / branch switch بدون درخواست کاربر
-- web-fetch تصادفی بدون برنامه جستجوی پروژه
+- web-fetch تصادفی بدون برنامه جستجو
 - HTML «انتخاب کرده» را نادیده بگیر
+
+---
+
+## Architecture Freeze
+
+قبل از تغییر معماری: **`config/architecture-freeze.md`**
 
 ## نام‌گذاری
 
-در متن فارسی فقط **پونیشا** — نه Ponisha، نه حرف لاتین داخل کلمه. URL و نام ریپو (`ponisha`) جدا از متن.
+در متن فارسی فقط **پونیشا** — URL (`ponisha.ir/project/...`) جدا و مجاز.
 
 ## commit
 
-تنظیمات یا sync پروفایل — با درخواست یا تغییر معنادار.
+داده learning/bids/profile — مجاز. تغییر معماری منجمد — فقط Freeze یا Override.
