@@ -6,6 +6,8 @@
 
 **ارتباط:** `feasibility-check.md` — ارزیابی اولیه + Fresh Project Priority + فعالیت کارفرما؛ `bids-log.md` — ثبت سریع per پروژه.
 
+**Life OS:** وضعیت زنده → `business/income/freelancing/ponisha/management-overview.md` · مرکز فرماندهی → `state/current-state.md`
+
 ---
 
 ## داده Fresh bids (Learning — نه Lesson)
@@ -19,6 +21,9 @@
 | 751061 | ۱۴۰۵/۰۵/۲۱ | تازه (~۱ روز) | ~۲۵ | — | Submitted |
 | 750764 | ۱۴۰۵/۰۵/۲۱ | تازه (~۲ روز) | ~۱۳ | — | Submitted |
 | 750995 | ۱۴۰۵/۰۵/۲۱ | تازه (~۲ روز) | ~۱۲ | — | Submitted |
+| 751007 | ۱۴۰۵/۰۵/۲۱ | ثبت نشده | ثبت نشده | — | Submitted |
+
+> **#751007:** Freshness و Proposal هنگام bid **ثبت نشده** — فقط تاریخ bid و وضعیت Submitted در `bids-log.md` موجود است.
 
 > فقط **داده** — Lesson یا Best Practice از این جدول **نساز** مگر کاربر بخواهد و الگو تکرار شود.
 

@@ -92,6 +92,30 @@
 
 ---
 
+## INB-003 — Data hygiene پونیشا
+
+| فیلد | مقدار |
+|------|--------|
+| **منبع** | Cursor Life OS |
+| **تاریخ** | ۱۴۰۵/۰۵/۲۱ |
+| **حوزه** | ponisha |
+| **وضعیت Inbox** | **ثبت شد** |
+
+### FACTS
+- #751007 به Fresh table `project-status.md` اضافه شد — Freshness/Proposal **ثبت نشده**
+- cross-link Life OS در bids-log، project-status، won-log
+- Data Gap تناقض ۳/۶ در `profile.md` علامت‌گذاری شد
+
+### CHANGES
+- `management-overview.md` — Data Gap #6 به‌روز
+- `projects/ponisha-campaign-1405-05.md` — کارت پروژه
+- `AGENTS-LIFE-OS.md` — دستورالعمل Agent مدیریت
+
+### NEXT ACTION
+- بدون تغییر وضعیت کلان — hygiene فقط
+
+---
+
 ## صف خالی
 
 *(ورودی جدید اینجا append شود)*

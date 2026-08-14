@@ -16,6 +16,7 @@
 | سند | موضوع |
 |-----|--------|
 | [agent-handoff-protocol.md](./agent-handoff-protocol.md) | استاندارد Handoff بین Cursorها |
+| [handoff-template.md](./handoff-template.md) | قالب کپی Handoff |
 | [data-classification.md](./data-classification.md) | FACT / GOAL / DECISION / … |
 | [document-types.md](./document-types.md) | Living vs Snapshot vs Decision vs Lesson |
 | [state-update-rules.md](./state-update-rules.md) | چه وقت Living Documents به‌روز شوند |

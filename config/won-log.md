@@ -132,7 +132,9 @@ Campaign فعلی: ۲۳ bid | ۱ Lost (#749132) | ۰ Won (هنوز) | ۲۲ Submi
 
 ## به‌روزرسانی
 
-وقتی Won جدید تأیید شد → ردیف این جدول + به‌روز `business/income/freelancing/ponisha/status-report-*.md`
+وقتی Won جدید تأیید شد → ردیف این جدول + به‌روز `management-overview.md` و در صورت نیاز `state/current-state.md`
+
+> **Life OS Living:** `business/income/freelancing/ponisha/management-overview.md`
 
 ### Won Pattern (تحلیل عمیق)
 

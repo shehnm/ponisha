@@ -11,18 +11,13 @@
 
 ### Ponisha — Campaign ۱۴۰۵/۰۵+
 
+→ **[ponisha-campaign-1405-05.md](./ponisha-campaign-1405-05.md)** — کارت پروژه (۱۱ سؤال Life OS)
+
 | فیلد | مقدار |
 |------|--------|
-| **چیست؟** | Campaign پیشنهاد فریلنس — ۲۳ bid |
-| **چرا مهم؟** | درآمد فریلنس |
 | **وضعیت** | **PENDING** — ۲۲ Submitted، ۰ Won campaign |
-| **Deadline** | اسکن Lost: ۱۴۰۵/۰۵/۲۵ |
-| **پول** | Pipeline ۱۸۴.۷۵M (PENDING)؛ Won تاریخی ۶۳.۲M (FACT) |
-| **منتظر** | Outcome کارفرما |
-| **ریسک** | overcommitment |
-| **آخرین تصمیم** | توقف bid |
-| **Next Action** | اسکن Lost |
-| **منبع** | `business/income/freelancing/ponisha/management-overview.md` |
+| **Next Action** | اسکن Lost تا ۱۴۰۵/۰۵/۲۵ |
+| **منبع زنده** | `management-overview.md` |
 
 ### پروژه‌های در حال انجام (پونیشا)
 
