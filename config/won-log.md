@@ -126,7 +126,7 @@
 
 پروژه‌های won-log **قبل از** campaign ۱۴۰۵/۰۵/۰۲ هستند — در جدول bids-log فعلی **نیستند**.
 
-Campaign فعلی: ۲۳ bid | ۹ Lost | ۰ Won (campaign) | ۱۴ Submitted.
+Campaign فعلی: ۲۴ bid | ۹ Lost | ۰ Won (campaign) | ۱۵ Submitted.
 
 ---
 
