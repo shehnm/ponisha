@@ -109,8 +109,8 @@
 | 3 | 749363 | فروشگاه تجهیزات پزشکی | https://ponisha.ir/project/749363 | اسکن شد — Submitted (بدون outcome) |
 | 4 | 750647 | مهاجرت قالب Astra Pro | https://ponisha.ir/project/750647 | اسکن شد — Submitted (بدون outcome) |
 | 5 | 750905 | بهینه‌سازی وودمارت | https://ponisha.ir/project/750905 | اسکن شد — Submitted (بدون outcome) |
-| 6 | **751061** | درگاه زرین‌پال | https://ponisha.ir/project/751061 | **الان** |
-| 7 | 750764 | TradeMap | https://ponisha.ir/project/750764 | مانده |
+| 6 | 751061 | درگاه زرین‌پال | https://ponisha.ir/project/751061 | اسکن شد — Submitted (بدون outcome) |
+| 7 | **750764** | TradeMap | https://ponisha.ir/project/750764 | **الان** |
 | 8 | 750995 | سایت فروش لنت | https://ponisha.ir/project/750995 | مانده |
 
 > پروژه‌های با یادداشت WAITING/RISK در جدول «سیگنال کارفرما» — جدا؛ این صف فقط **اسکن ناقص** است.
