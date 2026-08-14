@@ -84,9 +84,8 @@
 | 751061 | ۱۴۰۵/۰۵/۲۱ | ~۲۵ proposal |
 | 750764 | ۱۴۰۵/۰۵/۲۱ | ~۱۳ proposal |
 | 750995 | ۱۴۰۵/۰۵/۲۱ | ~۱۲ proposal |
-| 751007 | ۱۴۰۵/۰۵/۲۱ | **ثبت نشده** (Freshness/Proposal) |
 
-**منبع:** `config/project-status.md`
+**منبع:** `config/project-status.md` · **#751007 Lost** (۱۴۰۵/۰۵/۲۲)
 
 ---
 
