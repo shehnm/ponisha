@@ -1,0 +1,27 @@
+# پونیشا — قانون Session (اول بخوان)
+
+## وقتی کاربر گفت «پونیشا» یا «بعدی»
+
+**بدون متن آگهی / بدون اسکرین / بدون لینک از کاربر:**
+
+1. **فوراً** `config/ponisha-trigger.md` را بخوان و اجرا کن
+2. **هرگز** نگو: «متن پروژه را بفرست» / «brief لازم است» / «بودجه و اسکرین بفرست»
+3. **خودت** پروژه باز را از ponisha.ir پیدا کن
+4. `config/bids-log.md` + HTML «انتخاب کرده» را چک کن
+5. خروجی: مرحله ۰ (با **لینک** `https://ponisha.ir/project/{ID}`) + مرحله ۱ (📋 code blocks)
+
+## Startup (اولین پاسخ Session)
+
+> قوانین پروژه پونیشا بررسی شد. نسخه فعلی Workflow فعال است.
+
+## فایل‌های اجباری
+
+`config/ponisha-trigger.md` · `config/session-startup-check.md` · `MEMORY.md` · `config/bids-log.md` · `AGENTS.md`
+
+## ممنوع
+
+- درخواست brief از کاربر (مگر همه کاندیدها رد شده)
+- git merge بدون درخواست
+- grep/explore بی‌برنامه به‌جای خواندن trigger
+
+جزئیات: `AGENTS.md` · `.cursor/rules/ponisha-proposals.mdc`

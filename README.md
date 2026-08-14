@@ -1,5 +1,7 @@
 # پونیشا — حافظه پیشنهادنویسی + Proposal Intelligence
 
+> **⚠️ «پونیشا» / «بعدی» = workflow خودکار — متن آگهی نخواه. شروع: `config/ponisha-trigger.md`**
+
 تنظیمات، سبک، workflow و نمونه پیشنهادهای **پونیشا** برای Cursor.
 
 **Life OS:** [README-LIFE-OS.md](./README-LIFE-OS.md) · مدیریت: [AGENTS-LIFE-OS.md](./AGENTS-LIFE-OS.md)
