@@ -14,6 +14,10 @@ alwaysApply: true
 - **قبل** پیشنهاد: `bids-log` (Skip + رد شده) + HTML «انتخاب کرده»
 - **نه** git merge، **نه** web-fetch بی‌برنامه
 
+## نام‌گذاری
+
+فقط **پونیشا** / **بعدی** — ممنوع: حرف لاتین داخل کلمه (`a`, `i`)
+
 ## Session Startup
 
 **قبل از «پونیشا»، «بعدی»، Proposal:** `config/session-startup-check.md`  
