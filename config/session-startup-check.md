@@ -28,15 +28,18 @@
 
 | # | فایل | نقش |
 |---|------|-----|
+| 0 | **`config/ponisha-trigger.md`** | **تریگر «پونیشا»/«بعدی»** — خودت پروژه پیدا کن؛ متن آگهی نخواه |
 | 1 | `AGENTS.md` | دستورالعمل agent |
 | 2 | `MEMORY.md` | حافظه تأییدشده کاربر |
-| 3 | `.cursor/rules/ponisha-proposals.mdc` | قانون alwaysApply |
-| 4 | `config/output-format.md` | **Copy-Friendly** — فرم و متن پیشنهاد |
-| 5 | `config/feasibility-check.md` | Project Selection + Feasibility + Freshness |
-| 6 | `config/proposal-engine.md` | Proposal Intelligence *(اگر در ریپو موجود)* |
-| 7 | `config/human-review-loop.md` | Human Review *(اگر موجود)* |
-| 8 | `config/pending-bid-check.md` | ثبت «پیشنهاد دادم» *(اگر موجود)* |
-| 9 | `config/architecture-freeze.md` | Freeze و Override *(اگر موجود)* |
+| 3 | `config/bids-log.md` | Skip + رد شده + bidهای قبلی |
+| 4 | `config/project-status.md` | صف اسکن + وضعیت Submitted |
+| 5 | `.cursor/rules/ponisha-proposals.mdc` | قانون alwaysApply |
+| 6 | `config/output-format.md` | **Copy-Friendly** — فرم و متن پیشنهاد |
+| 7 | `config/feasibility-check.md` | Project Selection + Feasibility + Freshness |
+| 8 | `config/proposal-engine.md` | Proposal Intelligence *(اگر در ریپو موجود)* |
+| 9 | `config/human-review-loop.md` | Human Review *(اگر موجود)* |
+| 10 | `config/pending-bid-check.md` | ثبت «پیشنهاد دادم» *(اگر موجود)* |
+| 11 | `config/architecture-freeze.md` | Freeze و Override *(اگر موجود)* |
 
 **قانون Load:** اگر فایلی در ریپو **نیست** → در پیام startup یک خط «فایل X موجود نیست»؛ با فایل‌های موجود ادامه بده. **فرض نکن** قوانین از Session قبل در حافظه‌اند.
 
@@ -85,6 +88,8 @@
 
 - فرض نکن قوانین از قبل در Context فعال‌اند
 - به حافظه چت به‌جای فایل ریپو تکیه کن
+- **از کاربر متن آگهی پروژه نخواه** وقتی «پونیشا»/«بعدی» گفت — `config/ponisha-trigger.md`
+- git merge / branch switch بدون درخواست کاربر
 - Proposal Engine / Negotiation Engine را بدون درخواست صریح و رعایت Freeze تغییر بده
 
 ---

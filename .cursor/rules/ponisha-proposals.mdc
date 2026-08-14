@@ -1,9 +1,18 @@
 ---
-description: پیشنهاد پونیشا — همیشه MEMORY را اول بخوان
+description: وقتی گفت پونیشا — خودت پروژه پیدا کن؛ متن آگهی نخواه
 alwaysApply: true
 ---
 
 # پیشنهاد پونیشا
+
+## تریگر «پونیشا» / «بعدی» (بدون متن آگهی)
+
+**کاربر فقط «پونیشا» یا «بعدی» گفت → `config/ponisha-trigger.md` را بخوان و اجرا کن.**
+
+- **هرگز** نگو: «متن آگهی پروژه را بفرست» / «بودجه و اسکرین را بفرست»
+- **خودت** پروژه باز را از ponisha.ir پیدا کن
+- **قبل** پیشنهاد: `config/bids-log.md` (Skip + رد شده) + HTML «انتخاب کرده»
+- **نه** git merge، **نه** web-fetch بی‌برنامه
 
 ## Session Startup (اجباری)
 
@@ -34,4 +43,4 @@ alwaysApply: true
 - متن پیشنهاد: بدون عدد زمان/قیمت
 - نمونه: `examples/woocommerce-sections.txt`
 
-جزئیات کامل فقط در `MEMORY.md`.
+جزئیات کامل: `MEMORY.md` · تریگر: `config/ponisha-trigger.md`
