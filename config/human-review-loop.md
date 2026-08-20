@@ -16,6 +16,7 @@
 
 **بعد از پیش‌نویس، قبل از Human Review:**
 
+- **Client Understanding Check (CUC — `proposal-engine.md`):** ۵ سؤال — هر «خیر» → بازنویسی **قبل** نمایش HR
 - Emotional Trust (۱–۳): نگرانی انسانی، نقطه اتصال، بدون داستان‌سازی
 - **Client Perspective Simulation (CPS-۱–۵):** وضعیت ذهنی، «فهمیده شدن»، تست تفاوت، اعتماد مصنوعی
 - **Pattern Break Analysis (PBA-۱–۳):** First Impression (۲ جمله اول)، حذف کلیشه، نقطه مکث
@@ -23,7 +24,7 @@
 - **Proposal Compression (PCL-۱–۳):** تست حذف جمله، اولویت سطح ۱–۳، قانون طول
 - **Intent Control — Over-Proofing + Pre-HR Audit (Stage ۱):** توضیح زیاد؟ اطلاعات زود؟ دلیل پاسخ؟ → بازنویسی با حفظ Trust/Attention/تفاوت
 
-اگر CPS، PBA، AAL، PCL، Pre-HR Audit یا Simulation منفی بود → **بازنویسی** بلوک ۱ — سپس Human Review.
+اگر CPS، PBA، AAL، PCL، **CUC**، Pre-HR Audit یا Simulation منفی بود → **بازنویسی** بلوک ۱ — سپس Human Review.
 
 **Proposal Engine تغییر نمی‌کند** — فقط لایه کیفیت روان‌شناسی.
 

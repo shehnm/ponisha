@@ -47,7 +47,7 @@
 1. Startup + Pending Bid Check
 2. جستجو + Selection Analysis
 3. Intent + AAL + Engine → پیش‌نویس
-4. لایه‌های کیفیت (Emotional Trust + PCL + Over-Proofing)
+4. لایه‌های کیفیت (Emotional Trust + PCL + Over-Proofing) + **Client Understanding Check**
 5. **Decision Trace** (داخلی — قبل Human Review)
 6. Human Review → خروجی 📋 Copy/Paste
 7. **نه** پیشنهاد Layer جدید · **نه** refactor config
@@ -59,7 +59,7 @@
 | # | الزام |
 |---|--------|
 | ۱ | **Copy/Paste** — `output-format.md` · 📋 code blocks |
-| ۲ | **Workflow فعلی** — بدون shortcut یا حذف لایه |
+| ۲ | **Workflow فعلی** — بدون shortcut؛ **CUC** قبل HR |
 | ۳ | **Decision Trace** — Trace-۱…۵ + فرضیه برد (Trace-۴) **قبل** نمایش |
 | ۴ | بعد از Submit → `bids-log` + `last-proposal` |
 | ۵ | بعد از outcome → **Hypothesis Validation** (HV-۱…۶) |
