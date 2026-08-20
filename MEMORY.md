@@ -6,7 +6,9 @@
 
 ## هدف سیستم (تأییدشده — Architect)
 
-**Proposal Intelligence Engine** — افزایش Win Rate + **یادگیری مستمر** از نتایج واقعی.
+**Proposal Intelligence Engine** — **افزایش قرارداد** + یادگیری از نتایج واقعی.
+
+> **Execution Mode (۱۴۰۵/۰۵/۲۹):** سیستم تحلیل **کامل** — `config/execution-mode.md` — «پونیشا» = **فقط اجرا**؛ Layer جدید ممنوع مگر داده تکرارشونده.
 
 متن زیبا که انتخاب را بالا نبرد = شکست.
 
@@ -22,6 +24,7 @@
 | `config/proposal-intent-control.md` | **کنترل Intent** — Stage Funnel قبل از نوشتن (Engine بدون تغییر) |
 | `config/human-review-loop.md` | بازخورد ساخت‌یافته قبل از نسخه نهایی |
 | `config/architecture-freeze.md` | **Stable** — شرایط تغییر معماری |
+| `config/execution-mode.md` | **Analysis Complete** — «پونیشا» = اجرا فقط |
 
 ---
 

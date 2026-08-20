@@ -1,5 +1,15 @@
 # دستورالعمل Agent — Proposal Intelligence Engine
 
+## ⚠️ Execution Mode — سیستم تحلیل کامل است
+
+**«پونیشا» / «بعدی» = فقط اجرا** — `config/execution-mode.md`
+
+- **نه** Layer / Rule / Engine / تحلیل جدید (مگر مشکل تکرارشونده از داده + Override)
+- **تمرکز:** پروژه مناسب → Proposal → ثبت نتیجه → Validation
+- هر Proposal: Copy/Paste · Decision Trace · بعد از outcome → Hypothesis Validation
+
+---
+
 ## ⚠️ تریگر «پونیشا» / «بعدی» (اولین کار)
 
 **اگر کاربر فقط گفت «پونیشا» یا «بعدی» (بدون متن آگهی):**
@@ -40,7 +50,7 @@
 
 - **مرحله ۰:** ارزیابی — **حتماً** `#ID` + عنوان + **لینک** `https://ponisha.ir/project/{ID}` (`output-format.md`)
 - **مرحله ۱:** بلوک ۱ + ۲ (📋 code blocks) — پیش‌نویس + به‌روز **`last-proposal.md`**
-- **مرحله ۲:** Human Review Loop — چک‌لیست ۱–۵
+- **مرحله ۲:** Human Review Loop — چک‌لیست (۵ کلاسیک + ۵ روان‌شناسی)
 
 ---
 

@@ -6,6 +6,21 @@
 
 ---
 
+## Analysis System Complete — Execution Mode
+
+**از ۱۴۰۵/۰۵/۲۹:** لایه‌های تحلیل (Selection، Conversion، Logic، Emotional Trust، Intent، …) **کامل** هستند.
+
+| ممنوع | مجاز |
+|--------|------|
+| Layer / Rule / Engine / تحلیل **جدید** | اجرای Workflow + ثبت داده + Validation |
+| گسترش سیستم بدون داده | Hypothesis Validation بعد از outcome |
+
+**استثناء Layer جدید:** مشکل **تکرارشونده** از داده واقعی (≥۳) + تأیید کاربر + Override — جزئیات: `config/execution-mode.md`
+
+**«پونیشا»:** فقط **اجرا** — نه توسعه config.
+
+---
+
 ## فایل‌های منجمد (معماری)
 
 این فایل‌ها **نباید تغییر معماری** پیدا کنند:
@@ -29,7 +44,7 @@
 | Human Review و شمارنده تکرار | تغییر ساختار Human Review |
 | ردیف `bids-log` | تغییر workflow در AGENTS/MEMORY *(مگر تأیید صریح کاربر — مثل Pending Bid Check)* |
 | `last-proposal.md` / `pending-bid-check.md` | — |
-| `negotiation-conversion-analysis.md` / … / `proposal-intent-control.md` | — |
+| `negotiation-conversion-analysis.md` / … / `proposal-intent-control.md` / `execution-mode.md` | — |
 | sync `profile.md` | تغییر personal-voice یا output-format |
 | نمونه جدید در `examples/` | تغییر Cursor Rules |
 

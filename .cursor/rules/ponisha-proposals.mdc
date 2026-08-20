@@ -5,6 +5,11 @@ alwaysApply: true
 
 # Proposal Intelligence — پونیشا
 
+## Execution Mode
+
+**Analysis System Complete** — `config/execution-mode.md`  
+«پونیشا» / «بعدی» = **فقط اجرا** · Trace + Validation · **نه** Layer جدید
+
 ## تریگر «پونیشا» / «بعدی» (بدون متن آگهی)
 
 **کاربر فقط «پونیشا» یا «بعدی» گفت → `config/ponisha-trigger.md`**
