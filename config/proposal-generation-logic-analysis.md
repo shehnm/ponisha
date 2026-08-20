@@ -17,6 +17,7 @@
 **ارتباط:**
 - `proposal-learning.md` — Lessons، Human Review، تحلیل پس از نتیجه
 - `negotiation-conversion-analysis.md` — funnel و مانع مذاکره
+- `project-selection-decision-analysis.md` — معیار انتخاب پروژه (قبل از bid)
 - `last-proposal.md` — متن و فرم آخرین پیشنهاد
 - `proposal-engine.md` — **فقط مرجع**؛ منطق Engine را اینجا عوض نکن
 

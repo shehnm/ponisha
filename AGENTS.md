@@ -23,6 +23,7 @@
 1. **`config/pending-bid-check.md`** — قبل از «پونیشا» / «بعدی»
 2. **`config/ponisha-trigger.md`** — اگر تریگر بدون متن آگهی
 3. **`config/feasibility-check.md`**
+3.۵ **`config/project-selection-decision-analysis.md`** — **قبل از Proposal** (دلیل انتخاب + امتیاز + گزینه رد)
 4. **`MEMORY.md`**
 5. **`config/proposal-learning.md`** + **`personal-voice.md`** + **`proposal-engine.md`**
 5.۵ **`config/negotiation-conversion-analysis.md`** + **`config/proposal-generation-logic-analysis.md`** — هنگام مذاکره / پاسخ کارفرما / Won / Lost
@@ -45,7 +46,7 @@
 
 | عبارت | عمل |
 |--------|-----|
-| «پونیشا» / «بعدی» | Pending Bid Check → trigger → جستجو + پیشنهاد |
+| «پونیشا» / «بعدی» | Pending Bid Check → trigger → **Selection Analysis** → جستجو + پیشنهاد |
 | «پیشنهاد دادم» | `bids-log` (+ متن) + `proposal-learning` + `last-proposal` → Submitted |
 | «هنوز ارسال نکردم» | Ready بماند؛ پروژه جدید فقط با **تأیید صریح** |
 | «خوبه» | `last-proposal` → Ready |

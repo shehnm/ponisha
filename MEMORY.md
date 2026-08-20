@@ -17,6 +17,7 @@
 | `config/proposal-learning.md` | یادگیری از برد/باخت + Human Review |
 | `config/negotiation-conversion-analysis.md` | **تحلیل funnel مذاکره → قرارداد** (Learning فقط) |
 | `config/proposal-generation-logic-analysis.md` | **تحلیل منطق ساخت Proposal** (Learning فقط) |
+| `config/project-selection-decision-analysis.md` | **تحلیل تصمیم انتخاب پروژه** — قبل از bid (Learning فقط) |
 | `config/human-review-loop.md` | بازخورد ساخت‌یافته قبل از نسخه نهایی |
 | `config/architecture-freeze.md` | **Stable** — شرایط تغییر معماری |
 
@@ -27,6 +28,7 @@
 | مرحله | فایل |
 |-------|------|
 | ۰ | `config/feasibility-check.md` |
+| ۰.۵ | `config/project-selection-decision-analysis.md` — **قبل از Proposal** (هر «پونیشا»/«بعدی») |
 | ۱ | این فایل (`MEMORY.md`) |
 | ۲ | `config/proposal-learning.md` — Lessonهای دسته مرتبط |
 | ۲.۵ | `config/proposal-generation-logic-analysis.md` — اگر پروژه Negotiation/Won/Lost |
@@ -159,6 +161,7 @@
 
 0. **`pending-bid-check.md`** — قبل از جستجو
 1. **`feasibility-check.md`** — اگر نه/ریسک بالا → توقف
+1.۵ **`project-selection-decision-analysis.md`** — دلیل انتخاب + امتیاز + گزینه رد
 2. `MEMORY.md` + `proposal-learning.md` + `personal-voice.md` + `proposal-engine.md`
 3. پروفایل: `profile-refresh.md` — هر **۷ روز**
 4. جستجو در ponisha.ir — Fit اول، Freshness، HTML «انتخاب کرده»
@@ -171,7 +174,7 @@
 
 | عبارت | عمل |
 |--------|-----|
-| «پونیشا» / «بعدی» | Pending Bid Check → trigger → جستجو |
+| «پونیشا» / «بعدی» | Pending Bid Check → trigger → **Selection Analysis** → جستجو |
 | «پیشنهاد دادم» | bids-log + learning + last-proposal → Submitted + **Logic Analysis (بخش ۱–۳)** |
 | «پاسخ داد» / مذاکره | Negotiation Engine + **Conversion Analysis** + Logic Analysis (بخش ۴) |
 | «بردیم» / «باختیم» | learning + **Conversion (#5)** + **Logic (بخش ۴–۵)** |
