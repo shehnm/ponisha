@@ -541,7 +541,7 @@ Selection Analysis + feasibility
   → **Audience Adaptation (AAL-۱–۳)**
   → Proposal Engine → بلوک ۱
   → Emotional Trust (۱–۳) + CPS + PBA + AAL-۴ + PCL
-  → **Over-Proofing Test** (Stage ۱)
+  → **Over-Proofing + Pre-HR Audit** (Stage ۱)
   → Human Review (۱۰ ⭐)
   → نسخه نهایی
 ```

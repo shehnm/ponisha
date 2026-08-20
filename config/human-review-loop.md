@@ -10,7 +10,7 @@
 
 ## Emotional Trust Layer (قبل از Review)
 
-**قبل از نوشتن بلوک ۱:** agent **`proposal-intent-control.md`** (Stage + هدف) سپس **Audience Adaptation (AAL-۱–۳)** را اجرا کند.
+**قبل از نوشتن بلوک ۱:** agent **`proposal-intent-control.md`** — Stage + **Attention / Trust / Response Trigger** (تحلیل داخلی) — سپس **AAL-۱–۳**.
 
 **بعد از پیش‌نویس، قبل از Human Review:**
 
@@ -19,9 +19,9 @@
 - **Pattern Break Analysis (PBA-۱–۳):** First Impression (۲ جمله اول)، حذف کلیشه، نقطه مکث
 - **Audience Adaptation (AAL-۴):** تأیید Language Matching و Trust Trigger در متن
 - **Proposal Compression (PCL-۱–۳):** تست حذف جمله، اولویت سطح ۱–۳، قانون طول
-- **Intent Control — Over-Proofing (Stage ۱):** آیا بیش از حد اثبات کرده؟ → کوتاه با PCL
+- **Intent Control — Over-Proofing + Pre-HR Audit (Stage ۱):** توضیح زیاد؟ اطلاعات زود؟ دلیل پاسخ؟ → بازنویسی با حفظ Trust/Attention/تفاوت
 
-اگر CPS، PBA، AAL، PCL، Over-Proofing یا Simulation منفی بود → **بازنویسی** بلوک ۱
+اگر CPS، PBA، AAL، PCL، Pre-HR Audit یا Simulation منفی بود → **بازنویسی** بلوک ۱ — سپس Human Review.
 
 **Proposal Engine تغییر نمی‌کند** — فقط لایه کیفیت روان‌شناسی.
 
