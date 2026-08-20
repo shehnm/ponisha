@@ -18,7 +18,7 @@
 - `feasibility-check.md` — معیارهای انتخاب و مرحله ۰ (منبع داده اولیه)
 - `project-status.md` — Skip، Fresh bids، Win Rate
 - `bids-log.md` — ثبت bid / Skip
-- `proposal-generation-logic-analysis.md` — منطق Proposal (بعد از Submit)
+- `proposal-generation-logic-analysis.md` — **Decision Trace §۱** + منطق Proposal (بعد از Submit)
 - `negotiation-conversion-analysis.md` — funnel مذاکره (بعد از پاسخ کارفرما)
 - `proposal-learning.md` — Lessons کلی
 

@@ -10,7 +10,9 @@
 
 ## Emotional Trust Layer (قبل از Review)
 
-**قبل از نوشتن بلوک ۱:** agent **`proposal-intent-control.md`** — Stage + **Attention / Trust / Response Trigger** (تحلیل داخلی) — سپس **AAL-۱–۳**.
+**قبل از نمایش چک‌لیست Human Review:** agent **`proposal-generation-logic-analysis.md`** — **Proposal Decision Trace (Trace-۱–۵)** را در تحلیل داخلی ثبت کند.
+
+**قبل از نوشتن بلوک ۱:** agent **`proposal-intent-control.md`** — Stage + **Attention / Trust / Response Trigger** — سپس **AAL-۱–۳**.
 
 **بعد از پیش‌نویس، قبل از Human Review:**
 

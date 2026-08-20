@@ -42,7 +42,7 @@
 
 | تریگر کاربر | عمل |
 |-------------|-----|
-| «پیشنهاد دادم» | ردیف در `bids-log.md` (وضعیت: **Submitted**) + **ردیف اولیه** اینجا + **`proposal-generation-logic-analysis` (بخش ۱–۳)** |
+| «پیشنهاد دادم» | … + **`proposal-generation-logic-analysis` (Trace + بخش ۱–۳)** |
 | «پاسخ داد» / «کارفرما جواب داد» | وضعیت → **Negotiation**؛ آپدیت `proposal-learning` + **`negotiation-conversion-analysis`** + **`proposal-generation-logic-analysis` (بخش ۴)** |
 | «بردیم» / «پروژه رو گرفتم» | وضعیت → **Won** + تحلیل پس از پیروزی + **Conversion (#5)** + **Logic (بخش ۴–۵)** + **`project-selection-decision-analysis` (بخش ۴ Won)** |
 | «باختیم» / «انتخاب نشدم» / تشخیص Lost در پونیشا | وضعیت → **Lost** + ثبت اسکیما Lost — **بدون Lesson جدید** + **Conversion + Logic + Selection (تفکیک خطا)** |
@@ -77,7 +77,8 @@
 | تحلیل نهایی | |
 | Lesson Learned | |
 | Human Review (۱–۵ + متن) | … / **تطبیق مخاطب** / **خوانایی و قدرت پیام** |
-| Emotional Trust + … + **Intent** | Attention / Trust / Response Trigger / Pre-HR |
+| Emotional Trust + … + **Intent** | … |
+| **Decision Trace** | Skill/Proof/Competition + زاویه + حذف‌ها + فرضیه برد/شکست |
 | Lessons از بازخورد انسان | `[Human]` (اصلاح) / `[Human][Keep]` (حفظ) |
 | بعداً چه عوض کنیم | شروع / اعتماد / قیمت / زمان / سؤال پایانی / تحلیل / ریسک / insight / لحن |
 ```
