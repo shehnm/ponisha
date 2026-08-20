@@ -28,7 +28,8 @@
 
 | # | فایل | نقش |
 |---|------|-----|
-| 0 | **`config/ponisha-trigger.md`** | **تریگر «پونیشا»/«بعدی»** — خودت پروژه پیدا کن؛ متن آگهی نخواه |
+| 0 | **`config/execution-mode.md`** | **Analysis Complete** — «پونیشا» = اجرا؛ Layer جدید ممنوع |
+| 0b | **`config/ponisha-trigger.md`** | تریگر — خودت پروژه پیدا کن |
 | 1 | `AGENTS.md` | دستورالعمل agent |
 | 2 | `MEMORY.md` | حافظه تأییدشده کاربر |
 | 3 | `config/bids-log.md` | Skip + رد شده + bidهای قبلی |
@@ -40,6 +41,11 @@
 | 9 | `config/human-review-loop.md` | Human Review *(اگر موجود)* |
 | 10 | `config/pending-bid-check.md` | ثبت «پیشنهاد دادم» *(اگر موجود)* |
 | 11 | `config/architecture-freeze.md` | Freeze و Override *(اگر موجود)* |
+| 12 | `config/negotiation-conversion-analysis.md` | تحلیل funnel مذاکره *(مذاکره / پاسخ کارفرما)* |
+| 13 | `config/proposal-generation-logic-analysis.md` | تحلیل منطق Proposal *(Submit / Negotiation / Won / Lost)* |
+| 14 | `config/project-selection-decision-analysis.md` | تحلیل انتخاب پروژه *(قبل از Proposal / Won / Lost)* |
+| 15 | `config/emotional-trust-layer-analysis.md` | لایه اعتماد انسانی *(قبل از Human Review)* |
+| 16 | `config/proposal-intent-control.md` | Intent Control — Stage Funnel *(قبل از نوشتن)* |
 
 **قانون Load:** اگر فایلی در ریپو **نیست** → در پیام startup یک خط «فایل X موجود نیست»؛ با فایل‌های موجود ادامه بده. **فرض نکن** قوانین از Session قبل در حافظه‌اند.
 
@@ -90,7 +96,7 @@
 - به حافظه چت به‌جای فایل ریپو تکیه کن
 - **از کاربر متن آگهی پروژه نخواه** وقتی «پونیشا»/«بعدی» گفت — `config/ponisha-trigger.md`
 - git merge / branch switch بدون درخواست کاربر
-- Proposal Engine / Negotiation Engine را بدون درخواست صریح و رعایت Freeze تغییر بده
+- Proposal Engine / Negotiation Engine / **Analysis Layer** جدید بدون داده تکرارشونده + Override
 
 ---
 

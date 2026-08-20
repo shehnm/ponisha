@@ -6,7 +6,9 @@
 
 ## هدف سیستم (تأییدشده — Architect)
 
-**Proposal Intelligence Engine** — افزایش Win Rate + **یادگیری مستمر** از نتایج واقعی.
+**Proposal Intelligence Engine** — **افزایش قرارداد** + یادگیری از نتایج واقعی.
+
+> **Execution Mode (۱۴۰۵/۰۵/۲۹):** سیستم تحلیل **کامل** — `config/execution-mode.md` — «پونیشا» = **فقط اجرا**؛ Layer جدید ممنوع مگر داده تکرارشونده.
 
 متن زیبا که انتخاب را بالا نبرد = شکست.
 
@@ -15,8 +17,14 @@
 | `config/proposal-engine.md` | موتور: Risk، Insight، Client Simulation |
 | `config/personal-voice.md` | شخصیت نوشتاری ثابت |
 | `config/proposal-learning.md` | یادگیری از برد/باخت + Human Review |
+| `config/negotiation-conversion-analysis.md` | **تحلیل funnel مذاکره → قرارداد** (Learning فقط) |
+| `config/proposal-generation-logic-analysis.md` | **تحلیل منطق ساخت Proposal** (Learning فقط) |
+| `config/project-selection-decision-analysis.md` | **تحلیل تصمیم انتخاب پروژه** — قبل از bid (Learning فقط) |
+| `config/emotional-trust-layer-analysis.md` | **لایه اعتماد انسانی** — معیار کیفیت Proposal |
+| `config/proposal-intent-control.md` | **کنترل Intent** — Stage Funnel قبل از نوشتن (Engine بدون تغییر) |
 | `config/human-review-loop.md` | بازخورد ساخت‌یافته قبل از نسخه نهایی |
 | `config/architecture-freeze.md` | **Stable** — شرایط تغییر معماری |
+| `config/execution-mode.md` | **Analysis Complete** — «پونیشا» = اجرا فقط |
 
 ---
 
@@ -25,8 +33,12 @@
 | مرحله | فایل |
 |-------|------|
 | ۰ | `config/feasibility-check.md` |
+| ۰.۵ | `config/project-selection-decision-analysis.md` — **قبل از Proposal** |
+| ۰.۶ | `config/proposal-intent-control.md` — Stage ۱/۲/۳ + هدف — **قبل از بلوک ۱** |
 | ۱ | این فایل (`MEMORY.md`) |
 | ۲ | `config/proposal-learning.md` — Lessonهای دسته مرتبط |
+| ۲.۵ | `config/proposal-generation-logic-analysis.md` — اگر پروژه Negotiation/Won/Lost |
+| ۲.۶ | `config/negotiation-conversion-analysis.md` — اگر پاسخ کارفرما / مذاکره |
 | ۳ | `config/personal-voice.md` |
 | ۴ | `config/proposal-engine.md` — Risk + Insight + Simulation |
 | ۵ | `config/profile-refresh.md` → `config/profile.md` |
@@ -36,7 +48,7 @@
 | ۷ | بودجه + `competition-guide.md` + `pricing-guide.md` |
 | ۸ | `output-format.md` + `milestones-guide.md` |
 | ۹ | `examples/winrate-*.txt` |
-| ۱۰ | بعد از پیش‌نویس: `human-review-loop.md` |
+| ۱۰ | بعد از پیش‌نویس: `human-review-loop.md` + **`emotional-trust-layer-analysis.md`** |
 
 ---
 
@@ -155,20 +167,23 @@
 
 0. **`pending-bid-check.md`** — قبل از جستجو
 1. **`feasibility-check.md`** — اگر نه/ریسک بالا → توقف
+1.۵ **`project-selection-decision-analysis.md`** — دلیل انتخاب + امتیاز + گزینه رد
 2. `MEMORY.md` + `proposal-learning.md` + `personal-voice.md` + `proposal-engine.md`
 3. پروفایل: `profile-refresh.md` — هر **۷ روز**
 4. جستجو در ponisha.ir — Fit اول، Freshness، HTML «انتخاب کرده»
 5. `bids-log.md` — Skip + رد شده
-6. Risk → Insight → بلوk ۱ → Simulation → بلوk ۲ (📋)
+6. **Intent Control (Stage ۱)** → **AAL** → Risk → Insight → بلوk ۱ → Simulation → Emotional Trust + CPS + PBA + AAL + PCL → **Over-Proofing** → بلوk ۲ (📋)
 7. **مرحله ۰** با **لینک** + **`last-proposal.md`**
-8. **Human Review Loop**
+8. **Human Review Loop** (**۱۰** ⭐)
 
 **تریگرها:**
 
 | عبارت | عمل |
 |--------|-----|
-| «پونیشا» / «بعدی» | Pending Bid Check → trigger → جستجو |
-| «پیشنهاد دادم» | bids-log + learning + last-proposal → Submitted |
+| «پونیشا» / «بعدی» | Pending Bid Check → trigger → **Selection Analysis** → جستجو |
+| «پیشنهاد دادم» | bids-log + learning + last-proposal → Submitted + **Logic Analysis (بخش ۱–۳)** |
+| «پاسخ داد» / مذاکره | Negotiation Engine + **Conversion Analysis** + Logic Analysis (بخش ۴) |
+| «بردیم» / «باختیم» | learning + **Conversion (#5)** + **Logic (بخش ۴–۵)** |
 | «خوبه» | Ready |
 
 ## به‌روزرسانی

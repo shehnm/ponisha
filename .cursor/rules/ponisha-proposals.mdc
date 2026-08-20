@@ -5,6 +5,11 @@ alwaysApply: true
 
 # Proposal Intelligence — پونیشا
 
+## Execution Mode
+
+**Analysis System Complete** — `config/execution-mode.md`  
+«پونیشا» / «بعدی» = **فقط اجرا** · Trace + Validation · **نه** Layer جدید
+
 ## تریگر «پونیشا» / «بعدی» (بدون متن آگهی)
 
 **کاربر فقط «پونیشا» یا «بعدی» گفت → `config/ponisha-trigger.md`**
@@ -25,10 +30,10 @@ alwaysApply: true
 
 ## ترتیب
 
-1. `pending-bid-check.md` → `feasibility-check.md` → `MEMORY.md`
+1. `pending-bid-check.md` → `feasibility-check.md` → Selection → **`proposal-intent-control.md`** → AAL → `MEMORY.md`
 2. learning + voice + engine + bids-log + profile
-3. پیش‌نویس (📋 code blocks — `output-format.md`) → `last-proposal.md`
-4. `human-review-loop.md`
+3. پیش‌نویس → **`emotional-trust-layer-analysis.md`** (CPS+PBA+PCL+Over-Proofing) → `last-proposal.md`
+4. `human-review-loop.md` (۱۰ ⭐)
 
 ## خروجی
 
@@ -40,8 +45,10 @@ alwaysApply: true
 
 | عبارت | عمل |
 |--------|-----|
-| «پونیشا» / «بعدی» | Pending Bid Check → trigger → جستجو |
-| «پیشنهاد دادم» | bids-log + learning + last-proposal |
+| «پونیشا» / «بعدی» | Pending Bid Check → trigger → **Selection Analysis** → جستجو |
+| «پیشنهاد دادم» | bids-log + learning + last-proposal + Logic Analysis |
+| «پاسخ داد» / مذاکره | Conversion Analysis + Logic Analysis + Negotiation Engine |
+| «بردیم» / «باختیم» | learning + Conversion + Logic + **Selection (بخش ۴)** |
 | «خوبه» | Ready |
 
 Architecture Freeze: `architecture-freeze.md`  
