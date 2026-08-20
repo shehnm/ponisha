@@ -44,13 +44,13 @@
 |-------------|-----|
 | «پیشنهاد دادم» | … + **`proposal-generation-logic-analysis` (Trace + بخش ۱–۳)** |
 | «پاسخ داد» / «کارفرما جواب داد» | وضعیت → **Negotiation**؛ آپدیت `proposal-learning` + **`negotiation-conversion-analysis`** + **`proposal-generation-logic-analysis` (بخش ۴)** |
-| «بردیم» / «پروژه رو گرفتم» | وضعیت → **Won** + تحلیل پس از پیروزی + **Conversion (#5)** + **Logic (بخش ۴–۵)** + **`project-selection-decision-analysis` (بخش ۴ Won)** |
-| «باختیم» / «انتخاب نشدم» / تشخیص Lost در پونیشا | وضعیت → **Lost** + ثبت اسکیما Lost — **بدون Lesson جدید** + **Conversion + Logic + Selection (تفکیک خطا)** |
-| «رد شد» / «بی‌پاسخ ماند» | آپدیت وضعیت + تحلیل (اگر نهایی شد) |
+| «بردیم» / «پروژه رو گرفتم» | وضعیت → **Won** + Conversion + Logic + Selection + **Hypothesis Validation (HV)** |
+| «باختیم» / «انتخاب نشدم» / تشخیص Lost در پونیشا | وضعیت → **Lost** — **بدون Lesson جدید** + Conversion + Logic + Selection + **Hypothesis Validation (HV)** |
+| «رد شد» / «بی‌پاسخ ماند» (نهایی) | آپدیت وضعیت + **Hypothesis Validation (HV)** — No Response |
 | بررسی دوره‌ای وضعیت | اسکن پروژه‌های باز — `project-status.md` |
 | بازخورد Human Review | ثبت Human Review + `[Human]` (ایراد) یا `[Human][Keep]` (تحسین) |
 
-**بعد از هر نتیجه نهایی (برد/باخت/بی‌پاسخ):** بخش **تحلیل پس از نتیجه** اجباری است + **`negotiation-conversion-analysis`** + **`proposal-generation-logic-analysis`**.
+**بعد از هر نتیجه نهایی (برد/باخت/بی‌پاسخ):** تحلیل پس از نتیجه + Conversion + Logic + **`Proposal Hypothesis Validation (HV-۱–۶)`**
 
 **بعد از هر رویداد مذاکره (پاسخ کارفرما یا پاسخ ما):** **`negotiation-conversion-analysis`** — funnel، مانع، هدف پاسخ بعدی.
 
@@ -78,7 +78,8 @@
 | Lesson Learned | |
 | Human Review (۱–۵ + متن) | … / **تطبیق مخاطب** / **خوانایی و قدرت پیام** |
 | Emotional Trust + … + **Intent** | … |
-| **Decision Trace** | Skill/Proof/Competition + زاویه + حذف‌ها + فرضیه برد/شکست |
+| **Decision Trace** | … |
+| **Hypothesis Validation** | HV-۱ … HV-۶ (پس از outcome) |
 | Lessons از بازخورد انسان | `[Human]` (اصلاح) / `[Human][Keep]` (حفظ) |
 | بعداً چه عوض کنیم | شروع / اعتماد / قیمت / زمان / سؤال پایانی / تحلیل / ریسک / insight / لحن |
 ```
@@ -447,7 +448,7 @@
 2. آیا کارفرما فریلنسر دیگری انتخاب کرد؟ (اگر معلوم است)
 3. **Lesson Learned** — یک جمله actionable برای سیستم
 
-**همزمان:** ثبت در `negotiation-conversion-analysis.md` (عوامل Won/Lost) و `proposal-generation-logic-analysis.md` (بخش ۴–۵ + مقایسه) و **`project-selection-decision-analysis.md`** (بازبینی معیار انتخاب / تفکیک خطا Lost).
+**همزمان:** … + **`proposal-generation-logic-analysis` (Hypothesis Validation HV-۱–۶)**
 
 ---
 

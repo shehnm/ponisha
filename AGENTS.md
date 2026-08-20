@@ -52,7 +52,7 @@
 | «پیشنهاد دادم» | `bids-log` (+ متن) + `proposal-learning` + `last-proposal` → Submitted |
 | «هنوز ارسال نکردم» | Ready بماند؛ پروژه جدید فقط با **تأیید صریح** |
 | «خوبه» | `last-proposal` → Ready |
-| «بردیم» / «باختیم» / «پاسخ داد» | تحلیل + Lesson + **Conversion** + **Logic** + **Selection (بخش ۴)** |
+| «بردیم» / «باختیم» / «پاسخ داد» | تحلیل + Lesson + Conversion + Logic + Selection + **Hypothesis Validation** |
 
 ---
 

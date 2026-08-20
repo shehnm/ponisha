@@ -33,7 +33,7 @@
 | «پاسخ داد» (اولین پاسخ کارفرما) | تحلیل: کدام بخش Proposal گفتگو را شروع کرد؟ + به‌روز Trace |
 | «پیشنهاد دادم» | **ثبت منطق ساخت** + Decision Trace در لاگ — بلافاصله بعد از Submit |
 | پروژه → **Negotiation** | بررسی: آیا منطق Proposal به مرحله بعد کمک کرد؟ |
-| «بردیم» / «باختیم» | تحلیل پس از نتیجه (#4) + مقایسه (#5) |
+| «بردیم» / «باختیم» / **No Response** (نهایی) | **Proposal Hypothesis Validation** + تحلیل (#4) + مقایسه (#5) |
 | Human Review با `[Human]` / `[Keep]` | به‌روزرسانی «تصمیم‌های پشت Proposal» + Trace در صورت اصلاح |
 
 ---
@@ -123,11 +123,141 @@
 **یک جمله:** …
 ```
 
-**بعد از نتیجه واقعی:** فرضیه برد/شکست را با outcome **مقایسه** کن — بخش ۴ و ۵.
+**بعد از نتیجه واقعی:** → **Proposal Hypothesis Validation** (بخش زیر) + بخش ۴ و ۵.
 
 ---
 
-### تجمیع — بعد از ۲۰–۳۰ Proposal
+## Proposal Hypothesis Validation — اعتبارسنجی فرضیه
+
+**هدف:** بعد از نتیجه واقعی (**Won / Lost / No Response**) — **فرضیه اولیه** (Decision Trace Trace-۴/۵ + Intent) با **واقعیت** مقایسه شود.
+
+**تریگر:**
+
+| Outcome | زمان |
+|---------|------|
+| **Won** | بلافاصله پس از «بردیم» |
+| **Lost** | پس از «باختیم» یا تشخیص Lost |
+| **No Response** | وقتی پروژه **نهایی** شد بدون پاسخ/انتخاب *(مهلت تمام + انتخاب دیگر یا بی‌تعامل)* |
+
+**منبع فرضیه اولیه:** Trace-۴، Trace-۵، Intent (Attention/Trust/Response Trigger) — از لاگ Submit.
+
+**قانون Lost:** Lesson جدید در Engine **نساز** — فقط **Learning کوچک** (#۶) + ثبت در این بخش و `proposal-learning`.
+
+---
+
+### HV-۱. فرضیه اولیه چه بود؟
+
+**از Decision Trace** — بازنویسی کوتاه *(نه کپی کور)*:
+
+```markdown
+| # | فرضیه (یک جمله) | منبع |
+|---|------------------|------|
+| ۱ | مثلاً: کارفرما به دلیل **کاهش ریسک** پاسخ می‌دهد | Trace-۴ / Risk |
+| ۲ | مثلاً: **نمونه مشابه** باعث اعتماد می‌شود | Trace-۴ / Proof |
+| ۳ | مثلاً: **سؤال پایانی** باعث شروع گفتگو می‌شود | Response Trigger |
+| … | (حداکثر ۳–۵ فرضیه کلیدی) | Trace-۵ / Intent |
+```
+
+---
+
+### HV-۲. نتیجه واقعی چه شد؟
+
+```markdown
+| فیلد | مقدار |
+|------|--------|
+| **Outcome** | Won / Lost / No Response |
+| **Funnel نهایی** | از `negotiation-conversion-analysis` |
+| **کارفرما پاسخ داد؟** | بله / خیر |
+| **انتخاب شد؟** | ما / دیگر / هیچ‌کس / نامشخص |
+| **مدت تا outcome** | (تقریبی) |
+| **یادداشت** | یک خط واقعیت |
+```
+
+---
+
+### HV-۳. کدام فرضیه **درست** بود؟
+
+```markdown
+| فرضیه # | درست؟ | شواهد از outcome |
+|---------|--------|------------------|
+| ۱ | بله / خیر / جزئی | … |
+| ۲ | … | … |
+```
+
+---
+
+### HV-۴. کدام فرضیه **اشتباه** بود؟
+
+```markdown
+| فرضیه # | اشتباه | چرا (یک خط) |
+|---------|--------|-------------|
+| … | | |
+```
+
+---
+
+### HV-۵. مشکل از کجا بود؟
+
+**یک یا دو مورد اصلی** (+ اختیاری ثانوی):
+
+| منبع | ✓ | شواهد |
+|------|---|--------|
+| **انتخاب پروژه** | | Selection Score / Activity / Fit |
+| **زاویه Proposal** | | شروع / Insight / سؤال |
+| **اعتمادسازی کافی نبود** | | Conversion: اعتماد کم |
+| **قیمت** | | فرم / مذاکره |
+| **پروفایل** | | Proof / نمونه |
+| **رقیب** | | Lost سریع / bid زیاد |
+
+**تفکیک با `project-selection-decision-analysis` (Lost)** و **`negotiation-conversion-analysis`** — هم‌راستا نگه دار.
+
+---
+
+### HV-۶. Learning کوچک
+
+**یک جمله actionable** — برای Proposal/Selection/Intent بعدی:
+
+```markdown
+**Learning:** …
+**نوع:** Selection / Proposal / قیمت / پروفایل / رقابت / مذاکره
+**ثبت در proposal-learning:** بله — زیر «Hypothesis Validation» (نه Lesson Engine جدید مگر `[Human]`)
+```
+
+**مثال:**
+
+> Learning: «سؤال scope در ووکامرس با ۳۰ bid — پاسخ داد؛ Risk عمومی — No Response.» — نوع: Proposal
+
+---
+
+### اسکیما — Validation per پروژه
+
+```markdown
+### [ID] — Hypothesis Validation — [تاریخ outcome]
+
+| فیلد | مقدار |
+|------|--------|
+| Outcome | Won / Lost / No Response |
+| فرضیه‌های اولیه (HV-۱) | … |
+| نتیجه واقعی (HV-۲) | … |
+| درست (HV-۳) | … |
+| اشتباه (HV-۴) | … |
+| منبع مشکل (HV-۵) | … |
+| **Learning کوچک (HV-۶)** | … |
+```
+
+---
+
+### تجمیع Validation — بعد از ۲۰–۳۰ outcome
+
+| فرضیه تکراری | درست / اشتباه | Outcome غالب |
+|---------------|---------------|--------------|
+| کاهش ریسک → پاسخ | | |
+| سؤال پایانی → گفتگو | | |
+| نمونه → اعتماد | | |
+
+**+** جدول تجمیع Decision Trace — **منبع مشکل HV-۵** را با outcome واقعی **هم‌بسته** کن.
+
+---
 
 هر **۲۰** Submit یا **ماهانه** — جدول خلاصه:
 
@@ -268,7 +398,7 @@ Proposal این پروژه
 | **تصمیم قیمت/زمان/Scope** | (بخش ۳) |
 | **نتیجه** | در انتظار / Negotiation / Won / Lost |
 | **تحلیل پس از نتیجه** | (بخش ۴) |
-| **مقایسه** | (بخش ۵ — بعد از Won/Lost) |
+| **Hypothesis Validation** | HV-۱ … HV-۶ (بعد از Won/Lost/No Response) |
 | **الگوی استخراج‌شده** | ۰–۲ جمله |
 ```
 
@@ -290,9 +420,10 @@ Submit Proposal
   → negotiation-conversion-analysis
   → **به‌روز بخش ۴** (شروع گفتگو)
 
-Won / Lost
+Won / Lost / No Response (نهایی)
   → proposal-learning (تحلیل نهایی)
-  → negotiation-conversion-analysis (#5)
+  → negotiation-conversion-analysis
+  → **Proposal Hypothesis Validation (HV-۱–۶)**
   → **بخش ۴–۵ + مقایسه** — همین فایل
 ```
 
