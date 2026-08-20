@@ -17,6 +17,7 @@
 - `proposal-generation-logic-analysis.md` — تحلیل منطق Proposal اولیه (مکمل)
 - `project-selection-decision-analysis.md` — آیا از اول پروژه درست انتخاب شده بود؟ (Lost attribution)
 - `emotional-trust-layer-analysis.md` — آیا Proposal اعتماد انسانی ساخت؟ (مانع «اعتماد کم»)
+- `proposal-intent-control.md` — Stage ۱/۲/۳؛ نگاشت Funnel ↔ Intent
 
 ---
 

@@ -44,6 +44,7 @@
 | 13 | `config/proposal-generation-logic-analysis.md` | تحلیل منطق Proposal *(Submit / Negotiation / Won / Lost)* |
 | 14 | `config/project-selection-decision-analysis.md` | تحلیل انتخاب پروژه *(قبل از Proposal / Won / Lost)* |
 | 15 | `config/emotional-trust-layer-analysis.md` | لایه اعتماد انسانی *(قبل از Human Review)* |
+| 16 | `config/proposal-intent-control.md` | Intent Control — Stage Funnel *(قبل از نوشتن)* |
 
 **قانون Load:** اگر فایلی در ریپو **نیست** → در پیام startup یک خط «فایل X موجود نیست»؛ با فایل‌های موجود ادامه بده. **فرض نکن** قوانین از Session قبل در حافظه‌اند.
 

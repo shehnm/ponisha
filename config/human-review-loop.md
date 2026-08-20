@@ -10,7 +10,7 @@
 
 ## Emotional Trust Layer (قبل از Review)
 
-**قبل از نوشتن بلوک ۱:** agent **Audience Adaptation (AAL-۱–۳)** را اجرا کند — Client Type، Language Matching، Trust Trigger.
+**قبل از نوشتن بلوک ۱:** agent **`proposal-intent-control.md`** (Stage + هدف) سپس **Audience Adaptation (AAL-۱–۳)** را اجرا کند.
 
 **بعد از پیش‌نویس، قبل از Human Review:**
 
@@ -19,8 +19,9 @@
 - **Pattern Break Analysis (PBA-۱–۳):** First Impression (۲ جمله اول)، حذف کلیشه، نقطه مکث
 - **Audience Adaptation (AAL-۴):** تأیید Language Matching و Trust Trigger در متن
 - **Proposal Compression (PCL-۱–۳):** تست حذف جمله، اولویت سطح ۱–۳، قانون طول
+- **Intent Control — Over-Proofing (Stage ۱):** آیا بیش از حد اثبات کرده؟ → کوتاه با PCL
 
-اگر CPS، PBA، AAL، PCL یا Simulation منفی بود → **بازنویسی** بلوک ۱ — سپس Human Review.
+اگر CPS، PBA، AAL، PCL، Over-Proofing یا Simulation منفی بود → **بازنویسی** بلوک ۱
 
 **Proposal Engine تغییر نمی‌کند** — فقط لایه کیفیت روان‌شناسی.
 
@@ -172,7 +173,8 @@ Proposal را از **۱ تا ۵** ارزیابی کن (⭐ = ۱):
 | **دید کارفرما ضعیف** | CPS — تست تفاوت، فقط معرفی توانایی، اعتماد مصنوعی |
 | **شکست الگو ضعیف** | PBA — ۲ جمله اول کلیشه‌ای، بدون نقطه مکث، شبیه ۳۰ bid دیگر |
 | **تطبیق مخاطب ضعیف** | AAL — قالب عمومی، زبان ناهم‌خوان، Trust Trigger پوشش داده نشده |
-| **خوانایی/قدرت پیام ضعیف** | PCL — طولانی بی‌دلیل، سطح ۱ ناقص، ۱۵ ثانیه کافی نیست |
+| **خوانایی/قدرت پیام ضعیف** | PCL — طولانی بی‌دلیل، سطح ۱ ناقص |
+| **Over-Proofing (Intent)** | `proposal-intent-control.md` — Stage ۱ شبیه Stage ۳؛ Scope کامل در Proposal اولیه |
 | Insight نداشت | Insight Engine — یا skip درست |
 | ریسک اشتباه | Risk Discovery |
 | طولانی/کوتاه | ساختار بلوک ۱ |

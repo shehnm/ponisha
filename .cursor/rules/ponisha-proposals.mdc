@@ -25,10 +25,10 @@ alwaysApply: true
 
 ## ترتیب
 
-1. `pending-bid-check.md` → `feasibility-check.md` → **`project-selection-decision-analysis.md`** → `MEMORY.md`
+1. `pending-bid-check.md` → `feasibility-check.md` → Selection → **`proposal-intent-control.md`** → AAL → `MEMORY.md`
 2. learning + voice + engine + bids-log + profile
-3. پیش‌نویس (📋 code blocks — `output-format.md`) → **`emotional-trust-layer-analysis.md`** → `last-proposal.md`
-4. `human-review-loop.md` (+ ارتباط انسانی ⭐)
+3. پیش‌نویس → **`emotional-trust-layer-analysis.md`** (CPS+PBA+PCL+Over-Proofing) → `last-proposal.md`
+4. `human-review-loop.md` (۱۰ ⭐)
 
 ## خروجی
 

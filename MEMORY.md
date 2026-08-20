@@ -18,7 +18,8 @@
 | `config/negotiation-conversion-analysis.md` | **تحلیل funnel مذاکره → قرارداد** (Learning فقط) |
 | `config/proposal-generation-logic-analysis.md` | **تحلیل منطق ساخت Proposal** (Learning فقط) |
 | `config/project-selection-decision-analysis.md` | **تحلیل تصمیم انتخاب پروژه** — قبل از bid (Learning فقط) |
-| `config/emotional-trust-layer-analysis.md` | **لایه اعتماد انسانی** — معیار کیفیت Proposal (Engine بدون تغییر) |
+| `config/emotional-trust-layer-analysis.md` | **لایه اعتماد انسانی** — معیار کیفیت Proposal |
+| `config/proposal-intent-control.md` | **کنترل Intent** — Stage Funnel قبل از نوشتن (Engine بدون تغییر) |
 | `config/human-review-loop.md` | بازخورد ساخت‌یافته قبل از نسخه نهایی |
 | `config/architecture-freeze.md` | **Stable** — شرایط تغییر معماری |
 
@@ -29,7 +30,8 @@
 | مرحله | فایل |
 |-------|------|
 | ۰ | `config/feasibility-check.md` |
-| ۰.۵ | `config/project-selection-decision-analysis.md` — **قبل از Proposal** (هر «پونیشا»/«بعدی») |
+| ۰.۵ | `config/project-selection-decision-analysis.md` — **قبل از Proposal** |
+| ۰.۶ | `config/proposal-intent-control.md` — Stage ۱/۲/۳ + هدف — **قبل از بلوک ۱** |
 | ۱ | این فایل (`MEMORY.md`) |
 | ۲ | `config/proposal-learning.md` — Lessonهای دسته مرتبط |
 | ۲.۵ | `config/proposal-generation-logic-analysis.md` — اگر پروژه Negotiation/Won/Lost |
@@ -167,7 +169,7 @@
 3. پروفایل: `profile-refresh.md` — هر **۷ روز**
 4. جستجو در ponisha.ir — Fit اول، Freshness، HTML «انتخاب کرده»
 5. `bids-log.md` — Skip + رد شده
-6. **AAL** → Risk → Insight → بلوk ۱ → Simulation → Emotional Trust + CPS + PBA + AAL + **PCL** → بلوk ۲ (📋)
+6. **Intent Control (Stage ۱)** → **AAL** → Risk → Insight → بلوk ۱ → Simulation → Emotional Trust + CPS + PBA + AAL + PCL → **Over-Proofing** → بلوk ۲ (📋)
 7. **مرحله ۰** با **لینک** + **`last-proposal.md`**
 8. **Human Review Loop** (**۱۰** ⭐)
 

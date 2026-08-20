@@ -23,7 +23,8 @@
 1. **`config/pending-bid-check.md`** — قبل از «پونیشا» / «بعدی»
 2. **`config/ponisha-trigger.md`** — اگر تریگر بدون متن آگهی
 3. **`config/feasibility-check.md`**
-3.۵ **`config/project-selection-decision-analysis.md`** — **قبل از Proposal** (دلیل انتخاب + امتیاز + گزینه رد)
+3.۵ **`config/project-selection-decision-analysis.md`** — **قبل از Proposal**
+3.۶ **`config/proposal-intent-control.md`** — **Stage Funnel + هدف پیام** — قبل از نوشتن بلوک ۱
 4. **`MEMORY.md`**
 5. **`config/proposal-learning.md`** + **`personal-voice.md`** + **`proposal-engine.md`**
 5.۴ **`config/emotional-trust-layer-analysis.md`** — **قبل از Human Review** (معیار کیفیت روان‌شناسی — Engine بدون تغییر)

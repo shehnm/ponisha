@@ -22,6 +22,7 @@
 - `human-review-loop.md` — معیارهای روان‌شناسی ⭐ ۱–۵ (**۱۰** معیار کل)
 - `proposal-generation-logic-analysis.md` — ساختار و منطق Proposal
 - `negotiation-conversion-analysis.md` — مانع «اعتماد کم»
+- `proposal-intent-control.md` — Stage Intent قبل نوشتن؛ Over-Proofing قبل HR
 - `personal-voice.md` — ممنوعیت لحن فروشنده و کلیشه
 - `proposal-learning.md` — ثبت Human Review + Lessons
 
@@ -536,10 +537,12 @@ Proposal باید **حداقل یک** از این‌ها را در **شروع ی
 
 ```
 Selection Analysis + feasibility
-  → **Audience Adaptation (AAL-۱–۳)** ← قبل از نوشتن
-  → Proposal Engine (Risk + Insight + Simulation)
-  → Emotional Trust (۱–۳) + CPS + PBA + AAL-۴ + **Compression (PCL-۱–۳)** ← قبل از Human Review
-  → Human Review (**۱۰** ⭐)
+  → **Proposal Intent Control** — Stage + هدف + سقف اطلاعات
+  → **Audience Adaptation (AAL-۱–۳)**
+  → Proposal Engine → بلوک ۱
+  → Emotional Trust (۱–۳) + CPS + PBA + AAL-۴ + PCL
+  → **Over-Proofing Test** (Stage ۱)
+  → Human Review (۱۰ ⭐)
   → نسخه نهایی
 ```
 

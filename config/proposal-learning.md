@@ -77,7 +77,7 @@
 | تحلیل نهایی | |
 | Lesson Learned | |
 | Human Review (۱–۵ + متن) | … / **تطبیق مخاطب** / **خوانایی و قدرت پیام** |
-| Emotional Trust + CPS + PBA + AAL + PCL | … / Compression: جملات / سطح ۱ / طول |
+| Emotional Trust + CPS + PBA + AAL + PCL + **Intent** | Stage / Over-Proofing |
 | Lessons از بازخورد انسان | `[Human]` (اصلاح) / `[Human][Keep]` (حفظ) |
 | بعداً چه عوض کنیم | شروع / اعتماد / قیمت / زمان / سؤال پایانی / تحلیل / ریسک / insight / لحن |
 ```
