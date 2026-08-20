@@ -167,9 +167,9 @@
 3. پروفایل: `profile-refresh.md` — هر **۷ روز**
 4. جستجو در ponisha.ir — Fit اول، Freshness، HTML «انتخاب کرده»
 5. `bids-log.md` — Skip + رد شده
-6. **AAL** → Risk → Insight → بلوk ۱ → Simulation → Emotional Trust + CPS + PBA → بلوk ۲ (📋)
+6. **AAL** → Risk → Insight → بلوk ۱ → Simulation → Emotional Trust + CPS + PBA + AAL + **PCL** → بلوk ۲ (📋)
 7. **مرحله ۰** با **لینک** + **`last-proposal.md`**
-8. **Human Review Loop** (۹ ⭐)
+8. **Human Review Loop** (**۱۰** ⭐)
 
 **تریگرها:**
 

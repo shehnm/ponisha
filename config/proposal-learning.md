@@ -76,8 +76,8 @@
 | دلیل احتمالی (اگر باختیم) | |
 | تحلیل نهایی | |
 | Lesson Learned | |
-| Human Review (۱–۵ + متن) | شروع / اعتماد / درک / لحن / سؤال / **ارتباط انسانی** / **دید کارفرما** / **شکست الگو** / **تطبیق مخاطب** |
-| Emotional Trust + CPS + PBA + AAL | نگرانی / CPS / PBA / Client Type / Trust Trigger / Language |
+| Human Review (۱–۵ + متن) | … / **تطبیق مخاطب** / **خوانایی و قدرت پیام** |
+| Emotional Trust + CPS + PBA + AAL + PCL | … / Compression: جملات / سطح ۱ / طول |
 | Lessons از بازخورد انسان | `[Human]` (اصلاح) / `[Human][Keep]` (حفظ) |
 | بعداً چه عوض کنیم | شروع / اعتماد / قیمت / زمان / سؤال پایانی / تحلیل / ریسک / insight / لحن |
 ```
