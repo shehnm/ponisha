@@ -4,19 +4,22 @@
 
 **هدف:** یادگیری از **سلیقه واقعی** کاربر — نه فقط نتیجه برد/باخت.
 
-**ارتباط:** بازخوردها در `proposal-learning.md` ثبت می‌شوند. معیار **ارتباط انسانی** → `emotional-trust-layer-analysis.md`.
+**ارتباط:** بازخوردها در `proposal-learning.md` ثبت می‌شوند. معیارهای روان‌شناسی → `emotional-trust-layer-analysis.md` (CPS + PBA + AAL).
 
 ---
 
 ## Emotional Trust Layer (قبل از Review)
 
-**قبل از نمایش چک‌لیست به کاربر،** agent `emotional-trust-layer-analysis.md` را **داخلی** اجرا کند:
+**قبل از نوشتن بلوک ۱:** agent **Audience Adaptation (AAL-۱–۳)** را اجرا کند — Client Type، Language Matching، Trust Trigger.
+
+**بعد از پیش‌نویس، قبل از Human Review:**
 
 - Emotional Trust (۱–۳): نگرانی انسانی، نقطه اتصال، بدون داستان‌سازی
 - **Client Perspective Simulation (CPS-۱–۵):** وضعیت ذهنی، «فهمیده شدن»، تست تفاوت، اعتماد مصنوعی
 - **Pattern Break Analysis (PBA-۱–۳):** First Impression (۲ جمله اول)، حذف کلیشه، نقطه مکث
+- **Audience Adaptation (AAL-۴):** تأیید Language Matching و Trust Trigger در متن
 
-اگر CPS، PBA یا Simulation منفی بود → **بازنویسی** بلوک ۱ — سپس Human Review.
+اگر CPS، PBA، AAL یا Simulation منفی بود → **بازنویسی** بلوک ۱ — سپس Human Review.
 
 **Proposal Engine تغییر نمی‌کند** — فقط لایه کیفیت روان‌شناسی.
 
@@ -56,6 +59,7 @@ Proposal را از **۱ تا ۵** ارزیابی کن (⭐ = ۱):
 | **ارتباط انسانی** | ⭐⭐⭐⭐⭐ |
 | **دید کارفرما** | ⭐⭐⭐⭐⭐ |
 | **شکست الگو** | ⭐⭐⭐⭐⭐ |
+| **تطبیق مخاطب** | ⭐⭐⭐⭐⭐ |
 
 **سؤال راهنما — ارتباط انسانی:**
 
@@ -69,7 +73,11 @@ Proposal را از **۱ تا ۵** ارزیابی کن (⭐ = ۱):
 
 > آیا این Proposal در بین **۳۰ پیشنهاد مشابه**، دلیل کافی برای **خواندن ادامه متن** ایجاد می‌کند؟
 
-*(جزئیات: `emotional-trust-layer-analysis.md` — CPS + Pattern Break)*
+**سؤال راهنما — تطبیق مخاطب (Audience Adaptation Layer):**
+
+> آیا این متن **برای همین شخص** نوشته شده، یا می‌تواند برای **هر پروژه دیگری** هم ارسال شود؟
+
+*(جزئیات: `emotional-trust-layer-analysis.md` — CPS + PBA + AAL)*
 
 اگر ایرادی دیدی آزادانه بنویس. مثلاً:
 
@@ -157,6 +165,7 @@ Proposal را از **۱ تا ۵** ارزیابی کن (⭐ = ۱):
 | **ارتباط انسانی ضعیف** | `emotional-trust-layer-analysis.md` — نگرانی brief + نقطه اتصال انسانی |
 | **دید کارفرما ضعیف** | CPS — تست تفاوت، فقط معرفی توانایی، اعتماد مصنوعی |
 | **شکست الگو ضعیف** | PBA — ۲ جمله اول کلیشه‌ای، بدون نقطه مکث، شبیه ۳۰ bid دیگر |
+| **تطبیق مخاطب ضعیف** | AAL — قالب عمومی، زبان ناهم‌خوان، Trust Trigger پوشش داده نشده |
 | Insight نداشت | Insight Engine — یا skip درست |
 | ریسک اشتباه | Risk Discovery |
 | طولانی/کوتاه | ساختار بلوک ۱ |
