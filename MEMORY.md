@@ -169,7 +169,7 @@
 5. `bids-log.md` — Skip + رد شده
 6. Risk → Insight → بلوk ۱ → Simulation → **Emotional Trust Layer** → بلوk ۲ (📋)
 7. **مرحله ۰** با **لینک** + **`last-proposal.md`**
-8. **Human Review Loop** (+ ارتباط انسانی + دید کارفرما ⭐)
+8. **Human Review Loop** (+ ارتباط انسانی + دید کارفرما + شکست الگو ⭐)
 
 **تریگرها:**
 
