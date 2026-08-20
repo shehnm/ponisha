@@ -6,6 +6,8 @@
 - `bids-log.md` — ثبت سریع bid ارسال‌شده (ID، مبلغ، زمان، **وضعیت**)
 - `project-status.md` — **مدیریت وضعیت پروژه** (Submitted / Waiting / Negotiation / Won / Lost)
 - `human-review-loop.md` — بازخورد ساخت‌یافته بعد از هر Proposal
+- `negotiation-conversion-analysis.md` — **funnel مذاکره، مانع تبدیل، هدف پاسخ بعدی** (Learning — جایگزین Engine نیست)
+- `proposal-generation-logic-analysis.md` — **منطق ساخت Proposal** — چرا این زاویه/قیمت/ساختار (Learning)
 - `architecture-freeze.md` — معماری Stable؛ شرایط تغییر
 - این فایل — تحلیل عمیق‌تر + یادگیری + الگو استخراج
 
@@ -38,15 +40,17 @@
 
 | تریگر کاربر | عمل |
 |-------------|-----|
-| «پیشنهاد دادم» | ردیف در `bids-log.md` (وضعیت: **Submitted**) + **ردیف اولیه** اینجا |
-| «پاسخ داد» / «کارفرما جواب داد» | وضعیت → **Negotiation**؛ آپدیت `proposal-learning` |
-| «بردیم» / «پروژه رو گرفتم» | وضعیت → **Won** + تحلیل پس از پیروزی |
-| «باختیم» / «انتخاب نشدم» / تشخیص Lost در پونیشا | وضعیت → **Lost** + ثبت اسکیما Lost — **بدون Lesson جدید** |
+| «پیشنهاد دادم» | ردیف در `bids-log.md` (وضعیت: **Submitted**) + **ردیف اولیه** اینجا + **`proposal-generation-logic-analysis` (بخش ۱–۳)** |
+| «پاسخ داد» / «کارفرما جواب داد» | وضعیت → **Negotiation**؛ آپدیت `proposal-learning` + **`negotiation-conversion-analysis`** + **`proposal-generation-logic-analysis` (بخش ۴)** |
+| «بردیم» / «پروژه رو گرفتم» | وضعیت → **Won** + تحلیل پس از پیروزی + **Conversion (#5)** + **Logic (بخش ۴–۵)** |
+| «باختیم» / «انتخاب نشدم» / تشخیص Lost در پونیشا | وضعیت → **Lost** + ثبت اسکیما Lost — **بدون Lesson جدید** + **Conversion + Logic** |
 | «رد شد» / «بی‌پاسخ ماند» | آپدیت وضعیت + تحلیل (اگر نهایی شد) |
 | بررسی دوره‌ای وضعیت | اسکن پروژه‌های باز — `project-status.md` |
 | بازخورد Human Review | ثبت Human Review + `[Human]` (ایراد) یا `[Human][Keep]` (تحسین) |
 
-**بعد از هر نتیجه نهایی (برد/باخت/بی‌پاسخ):** بخش **تحلیل پس از نتیجه** اجباری است.
+**بعد از هر نتیجه نهایی (برد/باخت/بی‌پاسخ):** بخش **تحلیل پس از نتیجه** اجباری است + **`negotiation-conversion-analysis`** + **`proposal-generation-logic-analysis`**.
+
+**بعد از هر رویداد مذاکره (پاسخ کارفرما یا پاسخ ما):** **`negotiation-conversion-analysis`** — funnel، مانع، هدف پاسخ بعدی.
 
 **بعد از هر Proposal (قبل از نهایی):** `human-review-loop.md` — چک‌لیست ۱–۵ + متن آزاد.
 
@@ -438,6 +442,8 @@
    - رقابت (تعداد زیاد؟)
 2. آیا کارفرما فریلنسر دیگری انتخاب کرد؟ (اگر معلوم است)
 3. **Lesson Learned** — یک جمله actionable برای سیستم
+
+**همزمان:** ثبت در `negotiation-conversion-analysis.md` (عوامل Won/Lost) و `proposal-generation-logic-analysis.md` (بخش ۴–۵ + مقایسه).
 
 ---
 

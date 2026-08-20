@@ -41,7 +41,9 @@ alwaysApply: true
 | عبارت | عمل |
 |--------|-----|
 | «پونیشا» / «بعدی» | Pending Bid Check → trigger → جستجو |
-| «پیشنهاد دادم» | bids-log + learning + last-proposal |
+| «پیشنهاد دادم» | bids-log + learning + last-proposal + Logic Analysis |
+| «پاسخ داد» / مذاکره | Conversion Analysis + Logic Analysis + Negotiation Engine |
+| «بردیم» / «باختیم» | learning + Conversion + Logic |
 | «خوبه» | Ready |
 
 Architecture Freeze: `architecture-freeze.md`  

@@ -15,6 +15,8 @@
 | `config/proposal-engine.md` | موتور: Risk، Insight، Client Simulation |
 | `config/personal-voice.md` | شخصیت نوشتاری ثابت |
 | `config/proposal-learning.md` | یادگیری از برد/باخت + Human Review |
+| `config/negotiation-conversion-analysis.md` | **تحلیل funnel مذاکره → قرارداد** (Learning فقط) |
+| `config/proposal-generation-logic-analysis.md` | **تحلیل منطق ساخت Proposal** (Learning فقط) |
 | `config/human-review-loop.md` | بازخورد ساخت‌یافته قبل از نسخه نهایی |
 | `config/architecture-freeze.md` | **Stable** — شرایط تغییر معماری |
 
@@ -27,6 +29,8 @@
 | ۰ | `config/feasibility-check.md` |
 | ۱ | این فایل (`MEMORY.md`) |
 | ۲ | `config/proposal-learning.md` — Lessonهای دسته مرتبط |
+| ۲.۵ | `config/proposal-generation-logic-analysis.md` — اگر پروژه Negotiation/Won/Lost |
+| ۲.۶ | `config/negotiation-conversion-analysis.md` — اگر پاسخ کارفرما / مذاکره |
 | ۳ | `config/personal-voice.md` |
 | ۴ | `config/proposal-engine.md` — Risk + Insight + Simulation |
 | ۵ | `config/profile-refresh.md` → `config/profile.md` |
@@ -168,7 +172,9 @@
 | عبارت | عمل |
 |--------|-----|
 | «پونیشا» / «بعدی» | Pending Bid Check → trigger → جستجو |
-| «پیشنهاد دادم» | bids-log + learning + last-proposal → Submitted |
+| «پیشنهاد دادم» | bids-log + learning + last-proposal → Submitted + **Logic Analysis (بخش ۱–۳)** |
+| «پاسخ داد» / مذاکره | Negotiation Engine + **Conversion Analysis** + Logic Analysis (بخش ۴) |
+| «بردیم» / «باختیم» | learning + **Conversion (#5)** + **Logic (بخش ۴–۵)** |
 | «خوبه» | Ready |
 
 ## به‌روزرسانی

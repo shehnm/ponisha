@@ -40,6 +40,8 @@
 | 9 | `config/human-review-loop.md` | Human Review *(اگر موجود)* |
 | 10 | `config/pending-bid-check.md` | ثبت «پیشنهاد دادم» *(اگر موجود)* |
 | 11 | `config/architecture-freeze.md` | Freeze و Override *(اگر موجود)* |
+| 12 | `config/negotiation-conversion-analysis.md` | تحلیل funnel مذاکره *(مذاکره / پاسخ کارفرما)* |
+| 13 | `config/proposal-generation-logic-analysis.md` | تحلیل منطق Proposal *(Submit / Negotiation / Won / Lost)* |
 
 **قانون Load:** اگر فایلی در ریپو **نیست** → در پیام startup یک خط «فایل X موجود نیست»؛ با فایل‌های موجود ادامه بده. **فرض نکن** قوانین از Session قبل در حافظه‌اند.
 

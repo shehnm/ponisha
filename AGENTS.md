@@ -25,6 +25,7 @@
 3. **`config/feasibility-check.md`**
 4. **`MEMORY.md`**
 5. **`config/proposal-learning.md`** + **`personal-voice.md`** + **`proposal-engine.md`**
+5.۵ **`config/negotiation-conversion-analysis.md`** + **`config/proposal-generation-logic-analysis.md`** — هنگام مذاکره / پاسخ کارفرما / Won / Lost
 6. **`config/bids-log.md`** — Skip + رد شده + تکرار ممنوع
 7. پروفایل (sync ۷ روز): **`config/profile-refresh.md`**
 8. **`config/output-format.md`** + pricing + competition + milestones
@@ -48,7 +49,7 @@
 | «پیشنهاد دادم» | `bids-log` (+ متن) + `proposal-learning` + `last-proposal` → Submitted |
 | «هنوز ارسال نکردم» | Ready بماند؛ پروژه جدید فقط با **تأیید صریح** |
 | «خوبه» | `last-proposal` → Ready |
-| «بردیم» / «باختیم» / «پاسخ داد» | تحلیل + Lesson |
+| «بردیم» / «باختیم» / «پاسخ داد» | تحلیل + Lesson + **Conversion Analysis** + **Logic Analysis** |
 
 ---
 
