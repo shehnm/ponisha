@@ -38,7 +38,7 @@
 4. **`MEMORY.md`**
 5. **`config/proposal-learning.md`** + **`personal-voice.md`** + **`proposal-engine.md`**
 5.۴ **`config/emotional-trust-layer-analysis.md`** — **قبل از Human Review** (معیار کیفیت روان‌شناسی — Engine بدون تغییر)
-5.۴۵ **`proposal-engine.md` → Client Understanding Check** — **۵ سؤال قبل HR**؛ هر «خیر» → بازنویسی (Rule جدید نیست)
+5.۴۵ **`proposal-engine.md` → Client Understanding Check** — **تست ۰ (۲ جمله اول) + ۵ سؤال** قبل HR؛ فنی درست ≠ کافی
 5.۵ **`config/negotiation-conversion-analysis.md`** + **`config/proposal-generation-logic-analysis.md`** — هنگام مذاکره / پاسخ کارفرما / Won / Lost
 6. **`config/bids-log.md`** — Skip + رد شده + تکرار ممنوع
 7. پروفایل (sync ۷ روز): **`config/profile-refresh.md`**
