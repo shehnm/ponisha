@@ -29,7 +29,7 @@
 | Human Review و شمارنده تکرار | تغییر ساختار Human Review |
 | ردیف `bids-log` | تغییر workflow در AGENTS/MEMORY *(مگر تأیید صریح کاربر — مثل Pending Bid Check)* |
 | `last-proposal.md` / `pending-bid-check.md` | — |
-| `negotiation-conversion-analysis.md` / `proposal-generation-logic-analysis.md` / `project-selection-decision-analysis.md` | — |
+| `negotiation-conversion-analysis.md` / `proposal-generation-logic-analysis.md` / `project-selection-decision-analysis.md` / `emotional-trust-layer-analysis.md` | — |
 | sync `profile.md` | تغییر personal-voice یا output-format |
 | نمونه جدید در `examples/` | تغییر Cursor Rules |
 

@@ -26,11 +26,12 @@
 3.۵ **`config/project-selection-decision-analysis.md`** — **قبل از Proposal** (دلیل انتخاب + امتیاز + گزینه رد)
 4. **`MEMORY.md`**
 5. **`config/proposal-learning.md`** + **`personal-voice.md`** + **`proposal-engine.md`**
+5.۴ **`config/emotional-trust-layer-analysis.md`** — **قبل از Human Review** (معیار کیفیت روان‌شناسی — Engine بدون تغییر)
 5.۵ **`config/negotiation-conversion-analysis.md`** + **`config/proposal-generation-logic-analysis.md`** — هنگام مذاکره / پاسخ کارفرما / Won / Lost
 6. **`config/bids-log.md`** — Skip + رد شده + تکرار ممنوع
 7. پروفایل (sync ۷ روز): **`config/profile-refresh.md`**
 8. **`config/output-format.md`** + pricing + competition + milestones
-9. بعد از پیش‌نویس: **`human-review-loop.md`**
+9. بعد از پیش‌نویس: **`human-review-loop.md`** + **`emotional-trust-layer-analysis.md`**
 
 ---
 
@@ -50,7 +51,7 @@
 | «پیشنهاد دادم» | `bids-log` (+ متن) + `proposal-learning` + `last-proposal` → Submitted |
 | «هنوز ارسال نکردم» | Ready بماند؛ پروژه جدید فقط با **تأیید صریح** |
 | «خوبه» | `last-proposal` → Ready |
-| «بردیم» / «باختیم» / «پاسخ داد» | تحلیل + Lesson + **Conversion Analysis** + **Logic Analysis** |
+| «بردیم» / «باختیم» / «پاسخ داد» | تحلیل + Lesson + **Conversion** + **Logic** + **Selection (بخش ۴)** |
 
 ---
 

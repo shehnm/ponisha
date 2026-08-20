@@ -9,6 +9,7 @@
 - `negotiation-conversion-analysis.md` — **funnel مذاکره، مانع تبدیل، هدف پاسخ بعدی** (Learning — جایگزین Engine نیست)
 - `proposal-generation-logic-analysis.md` — **منطق ساخت Proposal** — چرا این زاویه/قیمت/ساختار (Learning)
 - `project-selection-decision-analysis.md` — **چرا این پروژه انتخاب شد** — قبل از bid + بازبینی بعد از Won/Lost
+- `emotional-trust-layer-analysis.md` — **اعتماد انسانی و روان‌شناسی Proposal** — قبل از Human Review
 - `architecture-freeze.md` — معماری Stable؛ شرایط تغییر
 - این فایل — تحلیل عمیق‌تر + یادگیری + الگو استخراج
 
@@ -75,7 +76,8 @@
 | دلیل احتمالی (اگر باختیم) | |
 | تحلیل نهایی | |
 | Lesson Learned | |
-| Human Review (۱–۵ + متن) | شروع / اعتماد / درک / لحن / سؤال |
+| Human Review (۱–۵ + متن) | شروع / اعتماد / درک / لحن / سؤال / **ارتباط انسانی** |
+| Emotional Trust | نگرانی انسانی / نقطه اتصال / Psychology Simulation |
 | Lessons از بازخورد انسان | `[Human]` (اصلاح) / `[Human][Keep]` (حفظ) |
 | بعداً چه عوض کنیم | شروع / اعتماد / قیمت / زمان / سؤال پایانی / تحلیل / ریسک / insight / لحن |
 ```

@@ -18,6 +18,7 @@
 | `config/negotiation-conversion-analysis.md` | **تحلیل funnel مذاکره → قرارداد** (Learning فقط) |
 | `config/proposal-generation-logic-analysis.md` | **تحلیل منطق ساخت Proposal** (Learning فقط) |
 | `config/project-selection-decision-analysis.md` | **تحلیل تصمیم انتخاب پروژه** — قبل از bid (Learning فقط) |
+| `config/emotional-trust-layer-analysis.md` | **لایه اعتماد انسانی** — معیار کیفیت Proposal (Engine بدون تغییر) |
 | `config/human-review-loop.md` | بازخورد ساخت‌یافته قبل از نسخه نهایی |
 | `config/architecture-freeze.md` | **Stable** — شرایط تغییر معماری |
 
@@ -42,7 +43,7 @@
 | ۷ | بودجه + `competition-guide.md` + `pricing-guide.md` |
 | ۸ | `output-format.md` + `milestones-guide.md` |
 | ۹ | `examples/winrate-*.txt` |
-| ۱۰ | بعد از پیش‌نویس: `human-review-loop.md` |
+| ۱۰ | بعد از پیش‌نویس: `human-review-loop.md` + **`emotional-trust-layer-analysis.md`** |
 
 ---
 
@@ -166,9 +167,9 @@
 3. پروفایل: `profile-refresh.md` — هر **۷ روز**
 4. جستجو در ponisha.ir — Fit اول، Freshness، HTML «انتخاب کرده»
 5. `bids-log.md` — Skip + رد شده
-6. Risk → Insight → بلوk ۱ → Simulation → بلوk ۲ (📋)
+6. Risk → Insight → بلوk ۱ → Simulation → **Emotional Trust Layer** → بلوk ۲ (📋)
 7. **مرحله ۰** با **لینک** + **`last-proposal.md`**
-8. **Human Review Loop**
+8. **Human Review Loop** (+ ارتباط انسانی ⭐)
 
 **تریگرها:**
 

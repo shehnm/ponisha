@@ -27,8 +27,8 @@ alwaysApply: true
 
 1. `pending-bid-check.md` → `feasibility-check.md` → **`project-selection-decision-analysis.md`** → `MEMORY.md`
 2. learning + voice + engine + bids-log + profile
-3. پیش‌نویس (📋 code blocks — `output-format.md`) → `last-proposal.md`
-4. `human-review-loop.md`
+3. پیش‌نویس (📋 code blocks — `output-format.md`) → **`emotional-trust-layer-analysis.md`** → `last-proposal.md`
+4. `human-review-loop.md` (+ ارتباط انسانی ⭐)
 
 ## خروجی
 
